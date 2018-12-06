@@ -11,3 +11,16 @@ C:\develop\Omicron\git\MerchantApp\DeKee.Base\obj\Debug\DeKee.Base.csproj.CoreCo
 C:\develop\Omicron\git\MerchantApp\DeKee.Base\obj\Debug\DeKee.Base.csproj.CopyComplete
 C:\develop\Omicron\git\MerchantApp\DeKee.Base\obj\Debug\B4U.Base.dll
 C:\develop\Omicron\git\MerchantApp\DeKee.Base\obj\Debug\B4U.Base.pdb
+C:\develop\Omicron\github\MerchantApp\DeKee.Base\bin\Debug\B4U.Base.dll.config
+C:\develop\Omicron\github\MerchantApp\DeKee.Base\bin\Debug\B4U.Base.dll
+C:\develop\Omicron\github\MerchantApp\DeKee.Base\bin\Debug\B4U.Base.pdb
+C:\develop\Omicron\github\MerchantApp\DeKee.Base\bin\Debug\Syncfusion.Compression.Base.dll
+C:\develop\Omicron\github\MerchantApp\DeKee.Base\bin\Debug\Syncfusion.Licensing.dll
+C:\develop\Omicron\github\MerchantApp\DeKee.Base\bin\Debug\Syncfusion.XlsIO.Base.dll
+C:\develop\Omicron\github\MerchantApp\DeKee.Base\bin\Debug\Syncfusion.Compression.Base.xml
+C:\develop\Omicron\github\MerchantApp\DeKee.Base\bin\Debug\Syncfusion.XlsIO.Base.xml
+C:\develop\Omicron\github\MerchantApp\DeKee.Base\obj\Debug\DeKee.Base.csprojAssemblyReference.cache
+C:\develop\Omicron\github\MerchantApp\DeKee.Base\obj\Debug\DeKee.Base.csproj.CoreCompileInputs.cache
+C:\develop\Omicron\github\MerchantApp\DeKee.Base\obj\Debug\DeKee.Base.csproj.CopyComplete
+C:\develop\Omicron\github\MerchantApp\DeKee.Base\obj\Debug\B4U.Base.dll
+C:\develop\Omicron\github\MerchantApp\DeKee.Base\obj\Debug\B4U.Base.pdb
