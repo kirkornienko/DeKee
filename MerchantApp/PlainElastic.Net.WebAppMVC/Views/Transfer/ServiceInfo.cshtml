@@ -1,0 +1,32 @@
+﻿@model PlainElastic.Net.WebAppMVC.Models.CryptoBox.TransferToServiceModel
+
+
+@for (int i = 0; i < Model.TopUpAmounts.Length; i++)
+{
+<div class="col-md-4 row">
+    <div class="col-md-8">
+
+        <br />
+        <h3 class="d-flex align-items-center  mb-3">@(Model.TopUpAmounts[i]) @Model.ReceiverCurrency</h3>
+        @if (Model.RetailPrices.Length > i)
+        {
+        <h4 class="d-flex align-items-center mb-3">@(Model.RetailPrices[i]) @Model.RetailCurrency</h4>
+        }
+    </div>
+    <div class="col-md-4 hoverToSee">
+        <br />
+        <input type="hidden" class="senderId" value="@(Model.TopUpAmounts[i])" />
+        <input type="hidden" class="receiverId" value="@(Model.TopUpAmounts[i])" />
+        @*<input type="hidden" class="product" value="@(Model.TopUpAmounts[i])" />*@
+        <input type="hidden" class="product" value="@(Model.TopUpAmounts[i])" />
+        <input type="hidden" class="retailAmount" value="@(Model.RetailPrices[i])" />
+        <input type="hidden" class="retailCurrency" value="@(Model.RetailCurrency)" />
+        <input type="hidden" class="msisdn" value="bank4you" />
+        <input type="hidden" class="operatorid" value="@(Model.OperatorId)" />
+        <input type="hidden" class="destination_msisdn" value="@(Model.PhoneNumber)" />
+        <button class="btn btn-primary topup">TopUp!</button>
+    </div>
+    <hr />
+
+</div>
+    }

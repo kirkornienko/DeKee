@@ -1,0 +1,30 @@
+﻿@model PlainElastic.Net.WebAppMVC.Models.CryptoBox.TransferModel[]
+
+
+<table class="table table-responsive">
+    <tr>
+        <th colspan="4"></th>
+        <th colspan="2" class="text-right">
+            <a href="Transfer/ExportToExcel">Export To Excel</a>
+        </th>
+    </tr>
+    <tr>
+        <th>Date</th>
+        <th>Status</th>
+        <th>Amount</th>
+        <th>Customer</th>
+        <th>Destination</th>
+        <th>Type</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@item.Date</td>
+        <td>@item.Status</td>
+        <td>@item.Amount @item.Currency</td>
+        <td>@(item.CustomerNumber == null ? "" : item.CustomerNumber)</td>
+        <td>@(item.DestinationNumber == null ? "" : item.DestinationNumber)</td>
+        <td>@item.TransactionCode</td>
+    </tr>
+    }
+</table>

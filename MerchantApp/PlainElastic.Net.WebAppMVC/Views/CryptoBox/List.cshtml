@@ -1,0 +1,21 @@
+﻿@model PlainElastic.Net.WebAppMVC.Models.UserModel[]
+
+<table class="table table-responsive">
+    <tr>
+        <th>Phone Number</th>
+        <th>Email</th>
+        <th>Name</th>
+        <th>Wallet</th>
+        <th>Date created</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td><a href="/CryptoBox/MerchantDetails?Id=@(item.Id)" class="btn btn-default"> @item.PhoneNumber </a></td>
+        <td>@item.Login</td>
+        <td>@item.FirstName @item.LastName</td>
+        <td>@item.WalletAddress</td>
+        <td>@item.CreatedDate</td>
+    </tr>
+    }
+</table>

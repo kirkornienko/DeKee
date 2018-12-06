@@ -1,0 +1,242 @@
+.accounts {
+    max-width: 480px;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+}
+
+#card,
+.accounts .card .frontSide,
+.accounts .card .backSide {
+    width: 342px;
+    height: 213px;
+    margin-bottom: 0;
+    border: 1px solid #ccc;
+
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+
+    box-shadow: 4px 0 4px rgba(150, 150, 150, 0.3);
+    background: #EfEfEf;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f5f5f5), to(#dddddd));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #f5f5f5, #dddddd);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #f5f5f5, #dddddd);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #f5f5f5, #dddddd);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #f5f5f5, #dddddd);
+}
+.accounts .card .frontSide {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+.accounts .card .backSide {
+    position: relative;
+    margin-left: auto;
+    box-shadow: none;
+}
+.accounts .card .frontSide .content > label {
+    margin-top: 0;
+    font-size: 11px;
+    width: 75%;
+}
+.accounts .card .frontSide .content.user-accounts > label {
+    margin: 30px 0 4px;
+    font-size: 13px;
+    width: 90%;
+}
+.card-to .accounts .card .frontSide .content > label {
+    font-size: 13px;
+    margin: 52px 0 4px;
+    width: 90%;
+}
+.card-to .accounts .card .frontSide .content.user-accounts > label {
+    margin-top: 30px;
+}
+.card .frontSide .content .cardNumber label {
+    margin-bottom: 4px;
+}
+.cards-narrow .cvv2 label {
+    position: absolute;
+    margin: 0 !important;
+    top: 60px;
+    right: 26px;
+    text-align: center;
+}
+
+#card label, .accounts .card .frontSide label {
+    display: inline-block;
+    width: 90%;
+    line-height: normal;
+}
+#card .number, .accounts .card .frontSide .number {
+    padding: 0.4em 0;
+    word-spacing: 10px;
+}
+.accounts .card .frontSide .content > select:first-child {
+    margin-top: 50px;
+}
+.accounts .card .frontSide .content.user-accounts .cardNumber,
+.card-to .accounts .card .frontSide .cardNumber {
+    top: 108px;
+}
+
+.accounts .card .backSide .line {
+    background: #7f7f7f;
+    height: 46px;
+    width: 344px;
+    margin-left: -21px;
+}
+
+#card .content, .accounts .card .content {
+    padding: 20px 20px;
+    background: none;
+    height: 175px;
+    margin: 0;
+}
+#card .cardNumber, .accounts .card .cardNumber {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    top: 73px;
+}
+#cards-custom > input[type=text] {
+    line-height: 1.1em;
+}
+
+.expirationDate {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.verify-panel .ui-input,
+.accounts .card .cardNumber span,
+.accounts .card .number,
+.accounts .card input {
+    text-align: center;
+    font-size: 18pt;
+    padding: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.verify-panel .ui-input,
+.accounts .card input {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.verify-panel .ui-input,
+.accounts .card .cardNumber input,
+.accounts .card .frontSide .content > select,
+.accounts .card .frontSide .content.receiver > input {
+    width: 100%;
+}
+.accounts .card .cardNumber input {
+    line-height: 1.1em;
+}
+.accounts .card .cardNumber input[maxlength='4'] {
+    width: 75px;
+}
+
+.verify-panel .ui-input,
+.accounts .card input {
+    transition: all 500ms ease 0s;
+}
+.verify-panel .ui-input:hover,
+.accounts .card input:hover {
+    border-color: rgba(70, 169, 232, 0.9);
+}
+.verify-panel .ui-input:focus,
+.accounts .card input:focus {
+    border-color: #66afe9;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+       -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+
+.accounts .card .cardNumber span {
+    display: block;
+    width: 75px;
+    float: left;
+    text-align: center;
+}
+
+.accounts .cvv2 {
+    margin:18px 0 0 0;
+    text-align: left;
+    display: block;
+    position: absolute;
+    width: 342px !important;
+    margin-left: -20px;
+    text-align:right;
+    padding: 8px 0;
+    vertical-align: middle;
+}
+.accounts .cvv2 {
+    margin-right: 0.3em;
+}
+.accounts .cvv2 acronim {
+    border-bottom: none;
+}
+.accounts .cvv2 .hint {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 320px;
+    font-size: 8pt !important;
+    font-style: normal !important;
+    padding: 1em !important;
+    background: rgba(255,255,255,0.75);
+    text-align: left;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 2px 5px #ccc;
+       -moz-box-shadow: 0 2px 2px #ccc;
+            box-shadow: 0 2px 2px #ccc;
+}
+.accounts .cvv2 .hint.visible {
+   display: block;
+}
+.accounts .cvv2 label {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.accounts .cvv2 label .pseudo,
+.accounts .cvv2 label .pseudoLink {
+    border-bottom: 1px dashed;
+    font-size: 0.7em;
+    color: #616161;
+    cursor: help;
+}
+.accounts .cvv2 .cvv2span,
+.accounts .cvv2 input {
+    margin: 0 32px 0 0;
+    width: 60px !important;
+    position: relative;
+    display: inline-block;
+    font-size: 24px !important;
+    padding: 5px 0 !important;
+    color: black !important;
+    background: white !important;
+}
+.accounts .cvv2 .cvv2span {
+    border: 1px dotted #ccc;
+    text-align: center;
+    color: #777;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    padding: 3px;
+    background: #eee !important;
+    color: black !important;
+}

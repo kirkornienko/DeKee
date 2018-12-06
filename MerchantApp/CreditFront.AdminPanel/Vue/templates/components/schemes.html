@@ -1,0 +1,31 @@
+﻿<template id="schemes-template">
+    <div>
+        <div class="col-sm-12">
+            <div class="input-group">
+                <input style="width:85%" class="form-control" type="text" v-model="selecteditem.Name" v-on:keyup.enter="getItems" />
+                <button type="button" class="btn btn-secondary form-control" v-on:load="getItems" v-on:click="getItems">Go!</button>
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <table class="table table-responsive-md table-borderless">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Code</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="item in items">
+                        <td>{{item.Name}}</td>
+                        <td>{{item.Code}}</td>
+                        <td>
+                            <a class="btn btn-outline-secondary" v-on:click="$emit('editscheme', item)">Edit</a>
+                            <a class="btn btn-outline-secondary" v-on:click="deleteScheme(item.Id)">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</template>

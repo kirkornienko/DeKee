@@ -1,0 +1,25 @@
+﻿@model Dictionary<string, object>
+@{
+    ViewBag.Title = "Register merchant";
+    Layout = "~/Views/Shared/_BodyLessLayout.cshtml";
+    ViewBag.BodyClass = "text-center";
+}
+
+<form class="form-signin" action="InitAccount" method="POST">
+    <h1 class="h3 mb-3 font-weight-normal">Create your B4U Merchant Account</h1>
+    <label for="Init.UserName" class="sr-only">Email address</label>
+    <input type="email" name="Init.UserName" id="Init.UserName" class="form-control" placeholder="Email address" required="" autofocus="">
+    <label for="Init.Password" class="sr-only">Password</label>
+    <input type="password" name="Init.Password" id="Init.Password" class="form-control" placeholder="Password" required="">
+    <label for="Init.ConfirmPassword" class="sr-only">Confirm password</label>
+    <input type="password" name="Init.ConfirmPassword" id="Init.ConfirmPassword" class="form-control" placeholder="Confirm password" required="">
+    @*<div class="checkbox mb-3">
+        <label>
+            <input type="checkbox" value="True" id="Init.Confirm" required=""> By checking this, you confirm the <a href="">Aggreement</a>
+        </label>
+    </div>*@
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+</form>
+
+
+

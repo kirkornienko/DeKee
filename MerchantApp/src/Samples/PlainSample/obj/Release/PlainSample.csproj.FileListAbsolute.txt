@@ -1,0 +1,86 @@
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\Samples\PlainSample\bin\Release\PlainSample.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\Samples\PlainSample\bin\Release\PlainElastic.Net.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\Samples\PlainSample\bin\Release\PlainElastic.Net.pdb
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\Samples\PlainSample\bin\Release\PlainElastic.Net.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.pdb
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\Samples\PlainSample\obj\Release\PlainSample.csprojResolveAssemblyReference.cache
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\Samples\PlainSample\obj\Release\PlainSample.csproj.CoreCompileInputs.cache
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\Samples\PlainSample\obj\Release\PlainSample.dll
+C:\develop\b4u\1\elasticSearchClient_Net\src\Samples\PlainSample\bin\Release\PlainSample.dll
+C:\develop\b4u\1\elasticSearchClient_Net\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.dll
+C:\develop\b4u\1\elasticSearchClient_Net\src\Samples\PlainSample\bin\Release\PlainElastic.Net.dll
+C:\develop\b4u\1\elasticSearchClient_Net\src\Samples\PlainSample\bin\Release\PlainElastic.Net.pdb
+C:\develop\b4u\1\elasticSearchClient_Net\src\Samples\PlainSample\bin\Release\PlainElastic.Net.xml
+C:\develop\b4u\1\elasticSearchClient_Net\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.pdb
+C:\develop\b4u\1\elasticSearchClient_Net\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.xml
+C:\develop\b4u\1\elasticSearchClient_Net\src\Samples\PlainSample\obj\Release\PlainSample.csprojAssemblyReference.cache
+C:\develop\b4u\1\elasticSearchClient_Net\src\Samples\PlainSample\obj\Release\PlainSample.csproj.CoreCompileInputs.cache
+C:\develop\b4u\1\elasticSearchClient_Net\src\Samples\PlainSample\obj\Release\PlainSample.csproj.CopyComplete
+C:\develop\b4u\1\elasticSearchClient_Net\src\Samples\PlainSample\obj\Release\PlainSample.dll
+C:\develop\b4u\2\src\Samples\PlainSample\bin\Release\PlainSample.dll
+C:\develop\b4u\2\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.dll
+C:\develop\b4u\2\src\Samples\PlainSample\bin\Release\PlainElastic.Net.dll
+C:\develop\b4u\2\src\Samples\PlainSample\bin\Release\PlainElastic.Net.pdb
+C:\develop\b4u\2\src\Samples\PlainSample\bin\Release\PlainElastic.Net.xml
+C:\develop\b4u\2\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.pdb
+C:\develop\b4u\2\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.xml
+C:\develop\b4u\2\src\Samples\PlainSample\obj\Release\PlainSample.csprojAssemblyReference.cache
+C:\develop\b4u\2\src\Samples\PlainSample\obj\Release\PlainSample.csproj.CoreCompileInputs.cache
+C:\develop\b4u\2\src\Samples\PlainSample\obj\Release\PlainSample.csproj.CopyComplete
+C:\develop\b4u\2\src\Samples\PlainSample\obj\Release\PlainSample.dll
+C:\develop\b4u\3\src\Samples\PlainSample\bin\Release\PlainSample.dll
+C:\develop\b4u\3\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.dll
+C:\develop\b4u\3\src\Samples\PlainSample\bin\Release\PlainElastic.Net.dll
+C:\develop\b4u\3\src\Samples\PlainSample\bin\Release\PlainElastic.Net.pdb
+C:\develop\b4u\3\src\Samples\PlainSample\bin\Release\PlainElastic.Net.xml
+C:\develop\b4u\3\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.pdb
+C:\develop\b4u\3\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.xml
+C:\develop\b4u\3\src\Samples\PlainSample\obj\Release\PlainSample.csprojAssemblyReference.cache
+C:\develop\b4u\3\src\Samples\PlainSample\obj\Release\PlainSample.csproj.CoreCompileInputs.cache
+C:\develop\b4u\3\src\Samples\PlainSample\obj\Release\PlainSample.csproj.CopyComplete
+C:\develop\b4u\3\src\Samples\PlainSample\obj\Release\PlainSample.dll
+C:\develop\b4u\4\src\Samples\PlainSample\bin\Release\PlainSample.dll
+C:\develop\b4u\4\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.dll
+C:\develop\b4u\4\src\Samples\PlainSample\bin\Release\PlainElastic.Net.dll
+C:\develop\b4u\4\src\Samples\PlainSample\bin\Release\PlainElastic.Net.pdb
+C:\develop\b4u\4\src\Samples\PlainSample\bin\Release\PlainElastic.Net.xml
+C:\develop\b4u\4\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.pdb
+C:\develop\b4u\4\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.xml
+C:\develop\b4u\4\src\Samples\PlainSample\obj\Release\PlainSample.csprojAssemblyReference.cache
+C:\develop\b4u\4\src\Samples\PlainSample\obj\Release\PlainSample.csproj.CoreCompileInputs.cache
+C:\develop\b4u\4\src\Samples\PlainSample\obj\Release\PlainSample.csproj.CopyComplete
+C:\develop\b4u\4\src\Samples\PlainSample\obj\Release\PlainSample.dll
+C:\Untidy\box\5\4 — копия\src\Samples\PlainSample\bin\Release\PlainSample.dll
+C:\Untidy\box\5\4 — копия\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.dll
+C:\Untidy\box\5\4 — копия\src\Samples\PlainSample\bin\Release\PlainElastic.Net.dll
+C:\Untidy\box\5\4 — копия\src\Samples\PlainSample\bin\Release\PlainElastic.Net.pdb
+C:\Untidy\box\5\4 — копия\src\Samples\PlainSample\bin\Release\PlainElastic.Net.xml
+C:\Untidy\box\5\4 — копия\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.pdb
+C:\Untidy\box\5\4 — копия\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.xml
+C:\Untidy\box\5\4 — копия\src\Samples\PlainSample\obj\Release\PlainSample.csprojResolveAssemblyReference.cache
+C:\Untidy\box\5\4 — копия\src\Samples\PlainSample\obj\Release\PlainSample.csproj.CoreCompileInputs.cache
+C:\Untidy\box\5\4 — копия\src\Samples\PlainSample\obj\Release\PlainSample.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\src\Samples\PlainSample\bin\Release\PlainSample.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\src\Samples\PlainSample\bin\Release\PlainElastic.Net.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\src\Samples\PlainSample\bin\Release\PlainElastic.Net.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\src\Samples\PlainSample\bin\Release\PlainElastic.Net.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\src\Samples\PlainSample\obj\Release\PlainSample.csprojAssemblyReference.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\src\Samples\PlainSample\obj\Release\PlainSample.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\src\Samples\PlainSample\obj\Release\PlainSample.csproj.CopyComplete
+C:\Users\Denis\Downloads\4_123\4 — копия\src\Samples\PlainSample\obj\Release\PlainSample.dll
+C:\develop\git\MerchantApp\src\Samples\PlainSample\bin\Release\PlainSample.dll
+C:\develop\git\MerchantApp\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.dll
+C:\develop\git\MerchantApp\src\Samples\PlainSample\bin\Release\PlainElastic.Net.dll
+C:\develop\git\MerchantApp\src\Samples\PlainSample\bin\Release\PlainElastic.Net.pdb
+C:\develop\git\MerchantApp\src\Samples\PlainSample\bin\Release\PlainElastic.Net.xml
+C:\develop\git\MerchantApp\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.pdb
+C:\develop\git\MerchantApp\src\Samples\PlainSample\bin\Release\Newtonsoft.Json.xml
+C:\develop\git\MerchantApp\src\Samples\PlainSample\obj\Release\PlainSample.csprojAssemblyReference.cache
+C:\develop\git\MerchantApp\src\Samples\PlainSample\obj\Release\PlainSample.csproj.CoreCompileInputs.cache
+C:\develop\git\MerchantApp\src\Samples\PlainSample\obj\Release\PlainSample.csproj.CopyComplete
+C:\develop\git\MerchantApp\src\Samples\PlainSample\obj\Release\PlainSample.dll

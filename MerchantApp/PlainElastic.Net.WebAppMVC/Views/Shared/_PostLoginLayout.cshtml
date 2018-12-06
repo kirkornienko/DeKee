@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title – Crypto Box</title>
+    @Styles.Render("~/Content/postlogin")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse">
+        <div class="container">
+            <div class="col-md-3 col-sm-3"  style="width:initial">
+                
+                <a href="/">
+                    <img src="/Content/img/Logo_white.png" height="50">
+                </a>
+
+            </div>
+            <div class="col-md-9 col-sm-6" style="width:initial">
+                <a href="~/CryptoBox/LogOut" style="color:#fff;float:right" class="btn btn-default">Log out</a>
+                <a href="/Customer/" style="color:#fff;float:right" class="btn btn-default">Customers</a>
+                <a href="~/CryptoBox/GenerateWallet" style="color:#fff;float:right" class="btn btn-default">Crypto wallet</a>
+                <a href="~/CryptoBox/MerchantProfile" style="color:#fff;float:right" class="btn btn-default">Profile</a>
+                <a href="~/Transfer" style="color:#fff;float:right" class="btn btn-default">Transfers</a>
+                <a href="~/CryptoBox/Merchants" style="color:#fff;float:right" class="btn btn-default">Merchants</a>
+                <a href="~/CryptoBox/MerchantCabinet" style="color:#fff;float:right" class="btn btn-default">Dashboard</a>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        @*<div class="col-md-2">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="~/CryptoBox/MerchantCabinet">Dashboard</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="~/CryptoBox/GenerateWallet">Crypto wallet</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="~/CryptoBox/MerchantProfile">Profile</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="~/Customer/">Customers</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="~/Transfer">Transfers</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="~/CryptoBox/Merchants">Merchants</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="~/CryptoBox/MerchantCabinet">Expenses calculator</a>
+                </li>
+            </ul>
+        </div>*@
+
+        <div class="col-md-12">
+            @RenderBody()
+        </div>
+    </div>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">© @DateTime.Today.Year Bank4You Group</p>
+        @*<ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>*@
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,47 @@
+C:\develop\b4u\2\B4U.Base\bin\Release\B4U.Base.dll
+C:\develop\b4u\2\B4U.Base\bin\Release\B4U.Base.pdb
+C:\develop\b4u\2\B4U.Base\obj\Release\B4U.Base.csprojAssemblyReference.cache
+C:\develop\b4u\2\B4U.Base\obj\Release\B4U.Base.csproj.CoreCompileInputs.cache
+C:\develop\b4u\2\B4U.Base\obj\Release\B4U.Base.dll
+C:\develop\b4u\2\B4U.Base\obj\Release\B4U.Base.pdb
+C:\develop\b4u\3\B4U.Base\bin\Release\B4U.Base.dll
+C:\develop\b4u\3\B4U.Base\bin\Release\B4U.Base.pdb
+C:\develop\b4u\3\B4U.Base\obj\Release\B4U.Base.csprojAssemblyReference.cache
+C:\develop\b4u\3\B4U.Base\obj\Release\B4U.Base.csproj.CoreCompileInputs.cache
+C:\develop\b4u\3\B4U.Base\obj\Release\B4U.Base.dll
+C:\develop\b4u\3\B4U.Base\obj\Release\B4U.Base.pdb
+C:\develop\b4u\4\B4U.Base\bin\Release\B4U.Base.dll
+C:\develop\b4u\4\B4U.Base\bin\Release\B4U.Base.pdb
+C:\develop\b4u\4\B4U.Base\obj\Release\B4U.Base.csprojAssemblyReference.cache
+C:\develop\b4u\4\B4U.Base\obj\Release\B4U.Base.csproj.CoreCompileInputs.cache
+C:\develop\b4u\4\B4U.Base\obj\Release\B4U.Base.dll
+C:\develop\b4u\4\B4U.Base\obj\Release\B4U.Base.pdb
+C:\Untidy\box\5\4 — копия\B4U.Base\bin\Release\B4U.Base.dll
+C:\Untidy\box\5\4 — копия\B4U.Base\bin\Release\B4U.Base.pdb
+C:\Untidy\box\5\4 — копия\B4U.Base\obj\Release\B4U.Base.csproj.CoreCompileInputs.cache
+C:\Untidy\box\5\4 — копия\B4U.Base\obj\Release\B4U.Base.dll
+C:\Untidy\box\5\4 — копия\B4U.Base\obj\Release\B4U.Base.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Base\bin\Release\B4U.Base.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Base\bin\Release\B4U.Base.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Base\bin\Release\Syncfusion.Compression.Base.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Base\bin\Release\Syncfusion.Licensing.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Base\bin\Release\Syncfusion.XlsIO.Base.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Base\bin\Release\Syncfusion.Compression.Base.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Base\bin\Release\Syncfusion.XlsIO.Base.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Base\obj\Release\B4U.Base.csprojAssemblyReference.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Base\obj\Release\B4U.Base.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Base\obj\Release\B4U.Base.csproj.CopyComplete
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Base\obj\Release\B4U.Base.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Base\obj\Release\B4U.Base.pdb
+C:\develop\git\MerchantApp\B4U.Base\bin\Release\B4U.Base.dll
+C:\develop\git\MerchantApp\B4U.Base\bin\Release\B4U.Base.pdb
+C:\develop\git\MerchantApp\B4U.Base\bin\Release\Syncfusion.Compression.Base.dll
+C:\develop\git\MerchantApp\B4U.Base\bin\Release\Syncfusion.Licensing.dll
+C:\develop\git\MerchantApp\B4U.Base\bin\Release\Syncfusion.XlsIO.Base.dll
+C:\develop\git\MerchantApp\B4U.Base\bin\Release\Syncfusion.Compression.Base.xml
+C:\develop\git\MerchantApp\B4U.Base\bin\Release\Syncfusion.XlsIO.Base.xml
+C:\develop\git\MerchantApp\B4U.Base\obj\Release\B4U.Base.csprojAssemblyReference.cache
+C:\develop\git\MerchantApp\B4U.Base\obj\Release\B4U.Base.csproj.CoreCompileInputs.cache
+C:\develop\git\MerchantApp\B4U.Base\obj\Release\B4U.Base.csproj.CopyComplete
+C:\develop\git\MerchantApp\B4U.Base\obj\Release\B4U.Base.dll
+C:\develop\git\MerchantApp\B4U.Base\obj\Release\B4U.Base.pdb

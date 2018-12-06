@@ -1,0 +1,11 @@
+﻿<div id="mainvue">
+    <h1>{{item.Name}}</h1>
+    <div class="row ">
+        <div class="col-lg-6">
+            <schemes v-on:editscheme="item = $event" :selecteditem="item" />
+        </div>
+        <div class="col-lg-6">
+            <schemedetails :schemeitem="item" />
+        </div>
+    </div>
+</div>

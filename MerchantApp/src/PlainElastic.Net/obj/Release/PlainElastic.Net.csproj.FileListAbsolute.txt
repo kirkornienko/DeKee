@@ -1,0 +1,56 @@
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.XML
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.pdb
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csprojResolveAssemblyReference.cache
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csproj.CoreCompileInputs.cache
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\PlainElastic.Net\obj\Release\PlainElastic.Net.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\src\PlainElastic.Net\obj\Release\PlainElastic.Net.pdb
+C:\develop\b4u\1\elasticSearchClient_Net\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.XML
+C:\develop\b4u\1\elasticSearchClient_Net\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.dll
+C:\develop\b4u\1\elasticSearchClient_Net\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.pdb
+C:\develop\b4u\1\elasticSearchClient_Net\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csprojAssemblyReference.cache
+C:\develop\b4u\1\elasticSearchClient_Net\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csproj.CoreCompileInputs.cache
+C:\develop\b4u\1\elasticSearchClient_Net\src\PlainElastic.Net\obj\Release\PlainElastic.Net.dll
+C:\develop\b4u\1\elasticSearchClient_Net\src\PlainElastic.Net\obj\Release\PlainElastic.Net.pdb
+C:\develop\b4u\2\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.XML
+C:\develop\b4u\2\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.dll
+C:\develop\b4u\2\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.pdb
+C:\develop\b4u\2\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csprojAssemblyReference.cache
+C:\develop\b4u\2\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csproj.CoreCompileInputs.cache
+C:\develop\b4u\2\src\PlainElastic.Net\obj\Release\PlainElastic.Net.dll
+C:\develop\b4u\2\src\PlainElastic.Net\obj\Release\PlainElastic.Net.pdb
+C:\develop\b4u\3\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.XML
+C:\develop\b4u\3\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.dll
+C:\develop\b4u\3\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.pdb
+C:\develop\b4u\3\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csprojAssemblyReference.cache
+C:\develop\b4u\3\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csproj.CoreCompileInputs.cache
+C:\develop\b4u\3\src\PlainElastic.Net\obj\Release\PlainElastic.Net.dll
+C:\develop\b4u\3\src\PlainElastic.Net\obj\Release\PlainElastic.Net.pdb
+C:\develop\b4u\4\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.XML
+C:\develop\b4u\4\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.dll
+C:\develop\b4u\4\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.pdb
+C:\develop\b4u\4\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csprojAssemblyReference.cache
+C:\develop\b4u\4\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csproj.CoreCompileInputs.cache
+C:\develop\b4u\4\src\PlainElastic.Net\obj\Release\PlainElastic.Net.dll
+C:\develop\b4u\4\src\PlainElastic.Net\obj\Release\PlainElastic.Net.pdb
+C:\Untidy\box\5\4 — копия\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.XML
+C:\Untidy\box\5\4 — копия\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.dll
+C:\Untidy\box\5\4 — копия\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.pdb
+C:\Untidy\box\5\4 — копия\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csprojResolveAssemblyReference.cache
+C:\Untidy\box\5\4 — копия\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csproj.CoreCompileInputs.cache
+C:\Untidy\box\5\4 — копия\src\PlainElastic.Net\obj\Release\PlainElastic.Net.dll
+C:\Untidy\box\5\4 — копия\src\PlainElastic.Net\obj\Release\PlainElastic.Net.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.XML
+C:\Users\Denis\Downloads\4_123\4 — копия\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csprojAssemblyReference.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\src\PlainElastic.Net\obj\Release\PlainElastic.Net.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\src\PlainElastic.Net\obj\Release\PlainElastic.Net.pdb
+C:\develop\git\MerchantApp\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.XML
+C:\develop\git\MerchantApp\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.dll
+C:\develop\git\MerchantApp\src\PlainElastic.Net\bin\Release\Net40\PlainElastic.Net.pdb
+C:\develop\git\MerchantApp\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csprojAssemblyReference.cache
+C:\develop\git\MerchantApp\src\PlainElastic.Net\obj\Release\PlainElastic.Net.csproj.CoreCompileInputs.cache
+C:\develop\git\MerchantApp\src\PlainElastic.Net\obj\Release\PlainElastic.Net.dll
+C:\develop\git\MerchantApp\src\PlainElastic.Net\obj\Release\PlainElastic.Net.pdb

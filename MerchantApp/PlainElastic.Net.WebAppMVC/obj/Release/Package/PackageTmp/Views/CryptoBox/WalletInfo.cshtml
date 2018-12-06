@@ -1,0 +1,29 @@
+﻿@model PlainElastic.Net.WebAppMVC.Models.CryptoBox.WalletModel[]
+
+@foreach (var item in Model)
+{
+    <div class="col-md-6">
+        <div class="col-md-12 mb-3">
+            @{
+                //var dictionary = new Dictionary<string, string>();
+                var props = item.GetType().GetProperties().Where(p => p.CanRead);
+                var IdProp = props.FirstOrDefault(p => p.Name == "Id");
+
+            }
+            @foreach (var p in props)
+            {
+                if (p.PropertyType != typeof(string))
+                {
+                    continue;
+                }
+                <div class="@(p.Name)">
+                    <label for="lastName" class="text-muted">@(p.Name)</label>
+                    <label for="lastName" class="label-primary">@(p.GetValue(item))</label>
+                </div>
+            }
+
+            
+        </div>
+        
+    </div>
+}

@@ -1,0 +1,33 @@
+﻿@model PlainElastic.Net.WebAppMVC.Models.CryptoBox.TransferModel
+
+
+
+<div class="col-lg-6">
+    <h3 class="d-flex justify-content-between align-items-center mb-3">Amount details</h3>
+    <label class="text-muted">Amount in Cash</label>
+    <label class="label-primary">@(Model.Amount) @(Model.Currency ?? "EUR")</label> <br />
+    <label class="text-muted">Amount in BTC</label>
+    <label class="label-primary">@(Model.BTCAmount)</label> <br />
+    <label class="text-muted">Amount in Beefy</label>
+    <label class="label-primary">@(Model.BFYAmount)</label> <br />
+    <label class="text-muted">Blockchain commission in Beefy</label>
+    <label class="label-primary">@(Model.GasAmount)</label> <br />
+    <label class="text-muted">B4U Commission</label>
+    <label class="label-primary">@(Model.B4UCommission)</label> <br />
+    <label class="text-muted">Total in Beefy</label>
+    <label class="label-primary">@(Model.BFYAmount + Model.B4UCommission)</label> <br />
+
+</div>
+@*<div class="col-lg-6" onload="">
+    <h3 class="d-flex justify-content-between align-items-center mb-3">Receiver</h3>
+    <div class="row user-info">
+
+    </div>
+</div>*@
+<br />
+
+<div class="col-lg-12">
+    <a onclick="ConfirmTransaction()" class="btn btn-primary confirm">Confirm</a>
+    <a href="" class="btn btn-primary">Cancel</a>
+    <input type="hidden" class="transactionId" value="@(Model.Id)" />
+</div>

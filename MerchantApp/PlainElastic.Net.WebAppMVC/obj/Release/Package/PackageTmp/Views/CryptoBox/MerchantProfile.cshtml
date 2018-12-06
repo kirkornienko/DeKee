@@ -1,0 +1,95 @@
+﻿@model PlainElastic.Net.WebAppMVC.Models.UserModel
+
+@{
+    ViewBag.Title = "Merchant profile";
+
+    Layout = "~/Views/Shared/_PostLoginLayout.cshtml";
+
+    var lnkAttr = new Dictionary<string, object>();
+    lnkAttr.Add("class", "btn btn-default");
+    var routeVals = new RouteValueDictionary();
+}
+<h2 class="d-flex justify-content-between align-items-center mb-3">
+    <span class="text-muted">Edit Crypto Merchant</span>
+</h2>
+<hr />
+
+@using (Html.BeginForm("EditProfile", "CryptoBox", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(m => m.Id);
+    <div class="row">
+        @*<div class="col-md-3">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <span class="text-muted">Your avatar</span>
+            </h4>
+            <p>
+                <img class="img-responsive" width="150px" src="~/Content/img/blank.png" />
+            </p>
+            <input type="file" name="Data.Avatar" id="Data.Avatar" class="form-control-custom" placeholder="Image file name">
+        </div>*@
+
+        <div class="col-md-8">
+            <label>Name</label>
+            <input type="text" disabled class="form-control-custom wide-control" name="Data.Name" id="Data.Name" placeholder="" value="@Model.FirstName @Model.LastName" required="">
+            <div class="invalid-feedback">
+                Valid name is required.
+            </div>
+
+            <label>Email</label>
+            <input type="text" disabled class="form-control-custom wide-control" name="Data.Email" id="Data.Email" placeholder="" value="@Model.Login" required="">
+            <div class="invalid-feedback">
+                Valid Email is required.
+            </div>
+
+            <label>Agreement number</label>
+            <div class="row wide-control">
+                <input type="text" disabled class="form-control-custom" name="Data.AgreementNumber" id="Data.AgreementNumber" placeholder="" value="@(Model.Data == null ? null : Model.Data.AgreementNumber)" required="">&nbsp;
+                <input type="date" disabled min="2000-01-01" max="2030-01-01" class="form-control-custom" name="Data.AgreementNumberDate" id="Data.AgreementNumberDate" placeholder="" value="@(Model.Data == null ? null : Model.Data.AgreementNumberDate)" required="">&nbsp;
+                @*<input type="file" class="form-control-custom narrow-control" placeholder=">Upload aggreement file">*@
+                <a href="/CryptoBox/GetDocument?docId=@ViewBag.AggreementId" style="display:@(ViewBag.AggreementId==null ? "none" : "initial")" class="btn btn-outline-secondary">Download aggreement file</a>
+
+            </div>
+            <div class="invalid-feedback">
+                Valid agreement number is required.
+            </div>
+
+            <label>Registration certificate number</label>
+            <div class="row wide-control">
+                <input type="text" disabled class="form-control-custom" name="Data.CertificateNumber" id="Data.CertificateNumber" placeholder="" value="@(Model.Data == null ? null : Model.Data.CertificateNumber)" required="">&nbsp;
+                <input type="date" disabled min="2000-01-01" max="2030-01-01" class="form-control-custom" name="Data.CertificateDate" id="Data.CertificateDate" placeholder="" value="@(Model.Data == null ? null : Model.Data.CertificateDate)" required="">&nbsp;
+                @*<input type="file" class="form-control-custom narrow-control btn btn-default" placeholder="Upload certificate file">*@
+                <a href="/CryptoBox/GetDocument?docId=@ViewBag.CertificateId" style="display:@(ViewBag.CertificateId==null ? "none" : "initial")" class="btn btn-outline-secondary">Download certificate file</a>
+            </div>
+            <div class="invalid-feedback">
+                Valid certificate number is required.
+            </div>
+
+            <label>Contact person</label>
+            <input type="text" disabled class="form-control-custom wide-control" name="Data.ContactPerson" id="Data.ContactPerson" placeholder="" value="@(Model.Data == null ? null : Model.Data.ContactPerson)" required="">
+            <div class="invalid-feedback">
+                Valid contact person is required.
+            </div>
+
+            <label>Contact phone number</label>
+            <input type="text" disabled class="form-control-custom wide-control" name="Data.ContactPhoneNumber" id="Data.ContactPhoneNumber" placeholder="" value="@Model.PhoneNumber">
+            <div class="invalid-feedback">
+                Valid phone number is required.
+            </div>
+
+            <label>Region</label>
+            <input type="text" disabled class="form-control-custom wide-control" name="Data.Region" id="Data.Region" placeholder="" value="@(Model.Country == null ? null : Model.Country)" required="">
+
+            <label>Address</label>
+            <input type="text" disabled class="form-control-custom wide-control" name="Data.Address" id="Data.Address" placeholder="" value="@(Model.BrunchAddress == null ? null : Model.BrunchAddress)" required="">
+
+
+        </div>
+
+
+    </div>
+    <hr />
+    <a class="btn btn-default"  href="/CryptoBox/Merchantwizard">Edit</a>
+
+}

@@ -1,0 +1,11 @@
+﻿@using CreditFront.Web.Utils.Helpers
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@VueHelper.LoadFile("~/Vue/templates/components/tile.html")
+<script src="~/Vue/components/tile.js"></script>
+@VueHelper.LoadFile("~/Vue/templates/main.html")
+
+<script src="~/Vue/main/app.js"></script>

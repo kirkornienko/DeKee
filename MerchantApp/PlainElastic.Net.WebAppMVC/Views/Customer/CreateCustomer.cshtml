@@ -1,0 +1,57 @@
+﻿@model PlainElastic.Net.WebAppMVC.Models.CryptoBox.CustomerModel
+
+@{
+    ViewBag.Title = "Create Customer";
+    Layout = "~/Views/Shared/_PostLoginLayout.cshtml";
+
+    var lnkAttr = new Dictionary<string, object>();
+    lnkAttr.Add("class", "btn btn-default");
+    var routeVals = new RouteValueDictionary();
+}
+<h2 class="d-flex justify-content-between align-items-center mb-3">
+    <span class="text-muted">Create Customer</span>
+</h2>
+<hr />
+
+@using (Html.BeginForm("CreateCustomer", "Customer", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(m => m.Id)
+    <div class="row">
+        <div class="col-md-8">
+            <label>Name</label>
+            <input type="text" class="form-control-custom wide-control" name="customer.Name" id="customer.Name" placeholder="" value="" required="">
+            <div class="invalid-feedback">
+                Valid name is required.
+            </div>
+
+            <label>Email</label>
+            <input type="email" class="form-control-custom wide-control" name="customer.Email" id="customer.Email" placeholder="" value="" required="">
+            <div class="invalid-feedback">
+                Valid Email is required.
+            </div>
+
+
+            <label>Customer phone number</label>
+            <input type="tel" class="form-control-custom wide-control" name="customer.PhoneNumber" id="customer.PhoneNumber" placeholder="" value="" required="">
+            <div class="invalid-feedback">
+                Valid phone number is required.
+            </div>
+        </div>
+    </div>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-8">
+            <label for="address">Address</label>
+            <input type="text" class="form-control-custom wide-control" name="customer.Address" id="customer.Address" placeholder=" " >
+            <div class="invalid-feedback">
+                Please enter your shipping address.
+            </div>
+        </div>
+    </div>
+    <hr />
+    <button type="submit" class="btn btn-default">Next ></button>
+
+}

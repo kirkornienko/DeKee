@@ -1,0 +1,258 @@
+﻿@model PlainElastic.Net.WebAppMVC.Models.UserModel
+@{
+    ViewBag.Title = "Merchant configuration";
+    ViewBag.BodyClass = "bg-light";
+}
+
+<div class="container">
+    <div class="py-3 text-center">
+        <h2>CheckIn Form</h2>
+        <p class="lead">Please, enter data in the form</p>
+    </div>
+    @using (Html.BeginForm("EditProfile", "CryptoBox", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+
+        <div class="row contacts">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="Data.Id" id="Data.Id" class="Id" value="@Model.Id" />
+
+
+            <div class="col-md-6 spacearound">
+                <label>Merchant title *</label>
+                <input type="text" class="form-control-custom form-control firstName wide-control" name="Data.Name" id="Data.Name" placeholder="" value="@Model.FirstName @Model.LastName" required="">
+                <div class="invalid-feedback">
+                    Valid name is required.
+                </div>
+            </div>
+            <div class="col-md-6 spacearound">
+                <label>Contact phone number *</label>
+                <input type="text" class="form-control-custom wide-control phoneNumber form-control" onchange="ChangePhoneNumber()" name="Data.ContactPhoneNumber" id="Data.ContactPhoneNumber" placeholder="" value="@Model.PhoneNumber" required="">
+                <div class="password">
+
+                </div>
+            </div>
+            <div class="col-md-6 spacearound">
+                <label>Contact person *</label>
+                <input type="text" class="form-control-custom wide-control contactPerson form-control" name="Data.ContactPerson" id="Data.ContactPerson" placeholder="" value="@(Model.Data == null ? null : Model.Data.ContactPerson)" required="">
+                <div class="invalid-feedback">
+                    Valid contact person is required.
+                </div>
+            </div>
+            <div class="col-md-6 spacearound phoneData">
+
+            </div>
+            <a onclick="CheckContacts()" class="btn btn-primary contacts" style="display:none">Verify ></a>
+
+        </div>
+        @*<div class=" row">
+
+            </div>*@
+        <hr class="documents" style="display:none" />
+        <div class="row documents" style="display:none">
+            <div class="col-md-12 spacearound">
+                <label>Agreement number & date *</label>
+                <div class="row wide-control">
+                    <div class="col-lg-6 col-md-6">
+                        <input type="text" onchange="CheckSubmitDoc()" class="form-control-custom form-control wide-control agreementNumber" name="Data.AgreementNumber" id="Data.AgreementNumber" placeholder="" value="@(Model.Data == null ? null : Model.Data.AgreementNumber)" required="">&nbsp;
+                        <input type="date" onchange="CheckSubmitDoc()" min="2000-01-01" max="2030-01-01" class="form-control-custom  form-control narrow-control wide-initial agreementNumberDate" name="Data.AgreementNumberDate" id="Data.AgreementNumberDate" placeholder="" value="@(Model.Data == null ? null : Model.Data.AgreementNumberDate)" required="">&nbsp;
+                        <input type="hidden" class="agreementFileId" />
+                    </div>
+                    <div class="col-lg-6 col-md-6 agreementFile dropzone dz-message">
+                        @*<input type="file" class="form-control-custom narrow-control btn btn-default agreement" placeholder="Image file name">*@
+                        <input class="form-control-custom narrow-control btn btn-default agreement" type="file" name="agreementFile" />
+                        <label style="color: rgba(0,0,0,0.1);">optional</label>
+                    </div>
+                </div>
+                <div class="invalid-feedback">
+                    Valid agreement number is required.
+                </div>
+            </div>
+
+            <div class="col-md-12 spacearound">
+                <label>Registration certificate number & date *</label>
+                <div class="row wide-control">
+                    <div class="col-lg-6 col-md-6">
+                        <input type="text" onchange="CheckSubmitDoc()" class="form-control-custom  form-control wide-control certificateNumber" name="Data.CertificateNumber" id="Data.CertificateNumber" placeholder="" value="@(Model.Data == null ? null : Model.Data.CertificateNumber)" required="">&nbsp;
+                        <input type="date" onchange="CheckSubmitDoc()" min="2000-01-01" max="2030-01-01" class="form-control-custom  form-control certificateDate wide-initial" name="Data.CertificateDate" id="Data.CertificateDate" placeholder="" value="@(Model.Data == null ? null : Model.Data.CertificateDate)" required="">&nbsp;
+                        <input type="hidden" class="certificateId" />
+                    </div>
+                    <div class="col-lg-6 col-md-6 certificateFile dropzone dz-message">
+                        @*<input type="file" class="form-control-custom narrow-control btn btn-default certificate" placeholder="Image file name">*@
+                        <input class="form-control-custom narrow-control btn btn-default certificate" type="file" name="certificateFile" />
+                        <label style="color: rgba(0,0,0,0.1);">optional</label>
+                    </div>
+                </div>
+                <div class="invalid-feedback">
+                    Valid certificate number is required.
+                </div>
+            </div>
+            <br />
+            <a onclick="CheckDocuments()" class="btn btn-primary documents proceed">Next ></a>
+        </div>
+        <hr />
+
+        <div class="row regionals" style="display:none">
+            <div class="col-md-6 region">
+
+            </div>
+            <div class="col-md-6 branch">
+                <label>Address *</label>
+                <input type="text" class="form-control-custom form-control wide-control" name="Data.BrunchAddress" id="Data.BrunchAddress" placeholder="Full address" value="@Model.BrunchAddress" required>&nbsp;
+
+            </div>
+            @*<a onclick="Save()" class="btn btn-primary douments">Save & Enter the cabinet ></a>*@
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary submit" style="display:none">Submit</button>
+        <label style="color: rgba(0,0,0,0.3);">Fields marked with '*' are mandatory</label>
+    }
+    </div>
+
+@section scripts
+{
+    @*<script src="~/Scripts/dropzone.js"></script>*@
+    <script type="text/javascript">
+
+        function ChangePhoneNumber(){
+            $(".documents").css("display", "none");
+        }
+
+        function CheckContacts() {
+            $("div.phoneData").html("");
+            //$("div.phoneData").css("display", "none");
+            $(".documents").css("display", "none");
+
+            var checkContactsReq = { phoneNumber: $("input.phoneNumber").val(), b4uPassword: $("input.b4uPassword").val(), useMerchantPassword: $("input.useMerchantPassword").is(":checked") }
+            $.post("/CryptoBox/CheckContacts", checkContactsReq).then(function (resp) {
+                if (resp.data) {
+                    $(".documents").css("display", "initial");  
+                    //$("input.phoneNumber").attr['disabled'] = "";
+                    $("div.password").css("display", "none");
+                    GetTransferToInfo();
+                    searchRegions(null);
+                    CheckSubmitDoc();
+                } else {
+                    $("div.password").html(resp);
+                    $("input.useMerchantPassword").change(function (e) {
+                        if ($("input.useMerchantPassword").is(":checked")) {
+                            $("input.b4uPassword").css("display", "none");
+                        }
+                        else {
+                            $("input.b4uPassword").css("display", "initial");
+                        }
+                    })
+                    $("div.password").css("display", "initial");
+                }
+            });
+
+            
+        }
+
+        function GetTransferToInfo() {
+            var req = { input: $("input.phoneNumber").val() }
+            $.post("/Transfer/GetTransferToInfo", req)
+                .then(function (resp) {
+                    if (resp.data)
+                        alert(resp.data.country);
+                    else {
+                        $("div.phoneData").html(resp);
+                        $("div.phoneData > a").css("display", "none");
+                    }
+                });
+        }
+        function CheckDocuments() {
+            //$("a.documents").css("display", "none");
+            $("div.regionals").css("display", "flex");
+            $(".submit").css("display", "initial");
+            searchRegions(null);
+
+            //if ($("input.agreement").val()) {
+            //    $("form.agreementFile").submit().then(function (resp) {
+            //        $("input.agreementFileId").val(resp.data)
+            //    });
+
+            //}
+
+            //if ($("input.certificate").val()) {
+            //    $("form.certificate").submit().then(function (resp) {
+            //        $("input.certificate").val(resp.data)
+            //    });
+            //}
+        }
+        function Save() {
+
+        }
+        function searchRegions(e) {
+            $.post("/CryptoBox/Regions").then(function (resp) {
+                $("div.region").html(resp);
+                //searchBranch(null);
+            })
+        }
+
+        function searchBranch(e) {
+            var r = $("select.region").val();
+            $.post("/CryptoBox/Branches", { regionId: r }).then(function (resp) {
+                $("div.branch").html(resp)
+            })
+        }
+
+        function CheckSubmitContact() {
+            var phone = $("input.phoneNumber").val();
+            var firstName = $("input.firstName").val();
+            var contactPerson = $("input.contactPerson").val();
+
+            if (phone && contactPerson && firstName) {
+                $("a.contacts").css("display", "initial");
+                return;
+            }
+
+            $("a.contacts").css("display", "none");
+        }
+        function CheckSubmitDoc() {
+            var aggName = "1";// $("input.agreement").val();
+            var certName = "1";// $("input.certificate").val();
+
+            var aggNumber = $("input.agreementNumber").val();
+            var certNumber = $("input.certificateNumber").val();
+
+            var aggDate = $("input.agreementNumberDate").val();
+            var certDate = $("input.certificateDate").val();
+
+            if (aggName && certName && aggNumber && certNumber && aggDate && certDate) {
+                $(".proceed").css("display", "initial");
+                return true;
+            }
+
+            $(".regionals").css("display", "none");
+            $(".submit").css("display", "none");
+            $(".proceed").css("display", "none");
+            //alert("Select all documents!");
+            return false;
+        }
+
+        (function () {
+            $(document).ready(function () {
+                searchRegions(null);
+                //$("select.region").change(searchBranch);
+                //$("input.agreement").change(CheckSubmitDoc);
+                //$("input.certificate").change(CheckSubmitDoc);
+
+                $("input.phoneNumber").change(CheckSubmitContact);
+                $("input.firstName").change(CheckSubmitContact);
+                $("input.contactPerson").change(CheckSubmitContact);
+                CheckSubmitDoc();
+                CheckSubmitContact();
+                //$("div.agreementFile").dropzone({ url: "/CryptoBox/UploadAgreement" }).on("success", DzSuccess);
+                //$("div.certificateFile").dropzone({ url: "/CryptoBox/UploadCertificate" }).on("success", DzSuccess);
+
+            });
+        })();
+
+        
+        function DzSuccess(file, response) {
+
+        }
+    </script>
+
+}
+

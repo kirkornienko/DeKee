@@ -1,0 +1,56 @@
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\B4U.Dao.dll.config
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\B4U.Dao.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\B4U.Dao.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\B4U.Base.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\B4U.DomainContext.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\EntityFramework.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\PlainElastic.Net.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\B4U.Base.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\B4U.DomainContext.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\EntityFramework.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\PlainElastic.Net.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\PlainElastic.Net.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\ru\EntityFramework.resources.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\bin\Release\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\obj\Release\B4U.Dao.csprojAssemblyReference.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\obj\Release\B4U.Dao.Migrations.initial.resources
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\obj\Release\B4U.Dao.csproj.GenerateResource.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\obj\Release\B4U.Dao.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\obj\Release\B4U.Dao.csproj.CopyComplete
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\obj\Release\B4U.Dao.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.Dao\obj\Release\B4U.Dao.pdb
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\B4U.Dao.dll.config
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\B4U.Dao.dll
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\B4U.Dao.pdb
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\B4U.Base.dll
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\B4U.DomainContext.dll
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\EntityFramework.dll
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\EntityFramework.SqlServer.dll
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\B4U.ElasticContext.dll
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\PlainElastic.Net.dll
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\PlainSample.dll
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\B4U.Base.pdb
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\B4U.DomainContext.pdb
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\EntityFramework.xml
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\EntityFramework.SqlServer.xml
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\B4U.ElasticContext.pdb
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\PlainElastic.Net.pdb
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\PlainElastic.Net.xml
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\ru\EntityFramework.resources.dll
+C:\develop\git\MerchantApp\B4U.Dao\bin\Release\ru\EntityFramework.SqlServer.resources.dll
+C:\develop\git\MerchantApp\B4U.Dao\obj\Release\B4U.Dao.csprojAssemblyReference.cache
+C:\develop\git\MerchantApp\B4U.Dao\obj\Release\B4U.Dao.Migrations.initial.resources
+C:\develop\git\MerchantApp\B4U.Dao\obj\Release\B4U.Dao.Migrations.NullableDates.resources
+C:\develop\git\MerchantApp\B4U.Dao\obj\Release\B4U.Dao.csproj.GenerateResource.cache
+C:\develop\git\MerchantApp\B4U.Dao\obj\Release\B4U.Dao.csproj.CoreCompileInputs.cache
+C:\develop\git\MerchantApp\B4U.Dao\obj\Release\B4U.Dao.csproj.CopyComplete
+C:\develop\git\MerchantApp\B4U.Dao\obj\Release\B4U.Dao.dll
+C:\develop\git\MerchantApp\B4U.Dao\obj\Release\B4U.Dao.pdb
+C:\develop\git\MerchantApp\B4U.Dao\obj\Release\B4U.Dao.Migrations.UserFilesAdded.resources
+C:\develop\git\MerchantApp\B4U.Dao\obj\Release\B4U.Dao.Migrations.UserFieldsAdded.resources
+C:\develop\git\MerchantApp\B4U.Dao\obj\Release\B4U.Dao.Migrations.UserBranchFieldsAdded.resources
+C:\develop\git\MerchantApp\B4U.Dao\obj\Release\B4U.Dao.Migrations.TransferFieldsAdded.resources
+C:\develop\git\MerchantApp\B4U.Dao\obj\Release\B4U.Dao.Migrations.TransferCustomerNumber.resources
+C:\develop\git\MerchantApp\B4U.Dao\obj\Release\B4U.Dao.Migrations.TransferB4UCommissionAdded.resources

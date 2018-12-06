@@ -1,0 +1,9 @@
+﻿@model IEnumerable<PlainElastic.Net.WebAppMVC.Models.CryptoBox.Region>
+
+<label>Region</label>
+<select class="form-control-custom wide-control region form-control" name="Data.Region" required="">
+    @foreach (var i in Model)
+    {
+        <option onselect="" @(ViewBag.Country != null && i.Name == ViewBag.Country ? "selected" : "") value="@i.Id">@i.Name (@i.Code)</option>
+    }
+</select>

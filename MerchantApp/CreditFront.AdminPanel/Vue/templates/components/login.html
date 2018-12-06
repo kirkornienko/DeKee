@@ -1,0 +1,18 @@
+﻿<template id="login-template">        
+    <div class="jumbotron">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-right">
+                <br /><!--logo-->
+                <h1>DeKee Credit System</h1>
+                <p class="lead">Enter your credentials</p>
+            </div>
+            <div class="col-lg-4">
+                <!--<span></span>-->
+                <input type="text" required v-model="login" class="form-control" />
+                <input type="password" required v-model="password" class="form-control" />
+                <p class="lead" v-text="error"></p>
+                <button type="button" v-on:click="auth" class="form-control btn btn-dark">Log In!</button>
+            </div>
+        </div>
+    </div>
+</template>

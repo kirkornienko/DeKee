@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+
+    var lnkAttr = new Dictionary<string, object>();
+    lnkAttr.Add("class", "btn btn-default");
+    var routeVals = new RouteValueDictionary();
+}
+
+<div class="jumbotron text-center gradientBack">
+    <h1>Crypto Box. Merchant PlugIn</h1>
+    <p class="lead">
+        Web application for managing, configurating and browesing Bank4You Merchants
+    </p>
+</div>
+
+<div class="row text-center">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+
+        <p>@Html.ActionLink("Create Merchant", "RegisterMerchant", "CryptoBox", routeVals, lnkAttr)</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Allready with us?</h2>
+        <p>@Html.ActionLink("Sign in!", "LoginMerchant", "CryptoBox", routeVals, lnkAttr)</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Explore</h2>
+        <p>@Html.ActionLink("See our partners", "SearchDocuments", "Elastic", routeVals, lnkAttr)</p>
+    </div>
+</div>

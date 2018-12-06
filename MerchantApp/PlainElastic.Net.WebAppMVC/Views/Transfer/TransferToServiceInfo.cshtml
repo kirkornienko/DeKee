@@ -1,0 +1,25 @@
+﻿@model PlainElastic.Net.WebAppMVC.Models.CryptoBox.TransferToServiceModel
+
+
+<div class="col-md-12">
+    <h3>TransferTo Verification Info</h3>
+    <table class="table table-responsive table-striped" style="max-height:300px">
+
+        <tr>
+            <td>Country</td>
+            <td>@Model.Country (@Model.CountryId)</td>
+        </tr>
+        <tr>
+            <td>Operator</td>
+            <td>@Model.Operator (@Model.OperatorId)</td>
+        </tr>
+        <tr>
+            <td>Connection success rate</td>
+            <td>~@Model.ConnectionRate %</td>
+        </tr>
+        <tr>
+            <td>Receiver currency</td>
+            <td>@Model.ReceiverCurrency</td>
+        </tr>
+    </table>
+</div>

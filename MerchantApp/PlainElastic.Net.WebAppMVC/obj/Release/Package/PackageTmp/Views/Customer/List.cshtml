@@ -1,0 +1,19 @@
+﻿@model PlainElastic.Net.WebAppMVC.Models.CryptoBox.CustomerModel[]
+
+<table class="table table-responsive">
+    <tr>
+        <th>Name</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+        <th>Wallet</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@item.Name</td>
+        <td>@item.PhoneNumber</td>
+        <td>@item.Email</td>
+        <td>@item.WalletAddress</td>
+    </tr>
+    }
+</table>

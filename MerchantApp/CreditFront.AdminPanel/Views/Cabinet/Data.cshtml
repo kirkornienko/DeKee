@@ -1,0 +1,12 @@
+﻿@using CreditFront.Web.Utils.Helpers
+
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_LayoutPostLogin.cshtml";
+}
+
+@VueHelper.LoadFile("~/Vue/templates/components/dashboard.html")
+<script src="~/Vue/components/dashboard.js"></script>
+@VueHelper.LoadFile("~/Vue/templates/dashboard.html")
+
+<script src="~/Vue/main/app.js"></script>

@@ -1,0 +1,152 @@
+﻿@{
+    ViewBag.Title = "Merchant Payout";
+    Layout = "~/Views/Shared/_PostLoginLayout.cshtml";
+}
+
+<h2 class="d-flex justify-content-between align-items-center mb-3">
+    <span class="text-muted">
+        Beefy wallet top-up
+    </span>
+</h2>
+<hr />
+<div class="row inputData">
+    <div class="col-lg-6">
+        <h3 class="d-flex justify-content-between align-items-center mb-3">Actual amount in cash</h3>
+        <input type="number" class="wide-control form-control amount" placeholder="000 USD" /> <br />
+        <a onclick="MerchantToWalletTransfer()" class="btn btn-default prepare" style="display:none">Go!</a>
+    </div>
+    <div class="col-lg-6 receiver">
+        <h3 class="d-flex justify-content-between align-items-center mb-3">Receiver</h3>
+        <div class="row data ">
+
+        </div>
+        <input type="hidden" id="receiver" name="receiver" />
+        <input type="hidden" id="receiverId" name="receiver" />
+        <a onclick="initSelect(receiver)" class="btn btn-default">Select ></a>
+    </div>
+</div>
+
+<div class="row">
+    <h3 class="selectInfo"></h3>
+
+    @*<div class="col-lg-12 searchContainer" style="display:none">
+            <input class="search form-control wide-control" name="search" type="text" onkeydown="executeSearch()" />
+        </div>*@
+    <div class="col-lg-12 searchContainer" style="display:none">
+        <div class="input-group">
+            <input class="search form-control wide-control" placeholder="name, phone, email" name="search" type="text" onkeydown="executeSearch()" />
+            <div class="input-group-append">
+                <button class="btn btn-default" type="button" onclick="executeSearch()">Search</button>
+                <a href="/Customer/CreateCustomer" class="btn btn-primary createCustomer" target="_blank">Add Customer</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12 transactionInfo">
+        <div class="row data">
+
+        </div>
+    </div>
+</div>
+@section scripts
+{
+    <script type="text/javascript">
+        var receiver = 'receiver';
+        var sender = 'sender';
+        var product = 'product';
+        var resultContainer = "div.transactionInfo > div.data";
+        var currentSelect = receiver;
+        var transactionId;
+        function executeSearch() {
+            $.post("/Transfer/SearchUserForTransfer", { search: $("input.search").val() }).then(function (resp) {
+                $(resultContainer).html(resp);
+                $("div.PhoneNumber").css("display", "none");
+                $("div.searchContainer").css("display", "initial");
+            });
+        }
+        function initSelect(selectType) {
+            $("h3.selectInfo").html("Select " + selectType);
+            currentSelect = selectType;
+            $("div.amounts > div.data").html("");
+            executeSearch();
+        }
+
+        function selectItem(elem) {
+            //$(elem).parent().
+        }
+        var receiverId;
+        function selectId(userId) {
+            $("h3.selectInfo").html("");
+            $(resultContainer).html("");
+
+            $('input#' + currentSelect).val(userId);
+            var getUserReq = { Id: userId };
+            LoadUser(getUserReq, displayUser)
+            //$.post("/Customer/GetUser", getUserReq).then(function (resp) {
+            //    receiverId = userId;
+            //    displayUser(resp);
+            //});
+            //initSelectAmount();
+
+        }
+        function LoadUser(req, displayUserHandler) {
+            $.post("/Customer/GetUser", req).then(function (resp) {
+                receiverId = req.Id;
+                displayUserHandler(resp);
+            });
+        }
+        function displayUser(resp) {
+
+            var divResult = "div." + currentSelect + " > div.data";
+            ShowUserInfo(resp, divResult);
+            //alert("123");
+            //$(divResult + " > .col-md-12 > .mb-3 > div").css("display", "none");
+            //$(divResult + " > .col-md-12 > .mb-3 > div.Name").css("display", "initial");
+            //$(divResult + " > .col-md-12 > .mb-3 > div.WalletAddress").css("display", "initial");
+            //$(divResult + " > .col-md-12 > .mb-3 > div.Email").css("display", "initial");
+
+            //initSelectAmount();
+        }
+
+        function ShowUserInfo(resp, divResult) {
+            if (!receiverId) {
+                $(divResult).html("Error")
+
+                return;
+            }
+            $(divResult).html(resp)
+            $("input." + currentSelect + "Id").val(receiverId);
+            $("a.prepare").css("display", "initial");
+        }
+        function MerchantToWalletTransfer() {
+            $("div.searchContainer").css("display", "none");
+
+            if (!receiverId) {
+                $(resultContainer).html("Select receiver");
+                return;
+            }
+
+            $(resultContainer).html("Transaction initialization is in progress...");
+            var amount = $("input.amount").val();
+            var req = { amount: amount, receiverId: receiverId };
+            $.post("/Transfer/PrepareMerchantToPerson", req).then(function (resp) {
+                $(resultContainer).html(resp).ready(function () {
+                    $("div.inputData").css("display", "none");
+                    $(".confirm").click(ConfirmTransaction)
+                    transactionId = $("input.transactionId").val();
+                });
+                LoadUser({ Id: receiverId}, function(resp){ShowUserInfo(resp, 'div.user-info')})
+            });
+        }
+        function ConfirmTransaction() {
+            if (transactionId) {
+                var req = { transactionId: transactionId };
+                $(resultContainer).html("Transaction execution is in progress...");
+                $.post("/Transfer/ConfirmMerchantToPerson", req).then(function (resp) {
+                    $(resultContainer).html(resp);
+                })
+            } else {
+                $(resultContainer).html("Transaction is not prepared...");
+            }
+        }
+    </script>
+}

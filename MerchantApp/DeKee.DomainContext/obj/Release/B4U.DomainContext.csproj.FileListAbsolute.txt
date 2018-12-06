@@ -1,0 +1,54 @@
+C:\develop\b4u\3\B4U.DomainContext\bin\Release\B4U.DomainContext.dll
+C:\develop\b4u\3\B4U.DomainContext\bin\Release\B4U.DomainContext.pdb
+C:\develop\b4u\3\B4U.DomainContext\obj\Release\B4U.DomainContext.csprojAssemblyReference.cache
+C:\develop\b4u\3\B4U.DomainContext\obj\Release\B4U.DomainContext.csproj.CoreCompileInputs.cache
+C:\develop\b4u\3\B4U.DomainContext\obj\Release\B4U.DomainContext.dll
+C:\develop\b4u\3\B4U.DomainContext\obj\Release\B4U.DomainContext.pdb
+C:\develop\b4u\3\B4U.DomainContext\bin\Release\PlainElastic.Net.dll
+C:\develop\b4u\3\B4U.DomainContext\bin\Release\PlainElastic.Net.pdb
+C:\develop\b4u\3\B4U.DomainContext\bin\Release\PlainElastic.Net.xml
+C:\develop\b4u\3\B4U.DomainContext\obj\Release\B4U.DomainContext.csproj.CopyComplete
+C:\develop\b4u\4\B4U.DomainContext\bin\Release\B4U.DomainContext.dll
+C:\develop\b4u\4\B4U.DomainContext\bin\Release\B4U.DomainContext.pdb
+C:\develop\b4u\4\B4U.DomainContext\bin\Release\PlainElastic.Net.dll
+C:\develop\b4u\4\B4U.DomainContext\bin\Release\PlainElastic.Net.pdb
+C:\develop\b4u\4\B4U.DomainContext\bin\Release\PlainElastic.Net.xml
+C:\develop\b4u\4\B4U.DomainContext\obj\Release\B4U.DomainContext.csprojAssemblyReference.cache
+C:\develop\b4u\4\B4U.DomainContext\obj\Release\B4U.DomainContext.csproj.CoreCompileInputs.cache
+C:\develop\b4u\4\B4U.DomainContext\obj\Release\B4U.DomainContext.csproj.CopyComplete
+C:\develop\b4u\4\B4U.DomainContext\obj\Release\B4U.DomainContext.dll
+C:\develop\b4u\4\B4U.DomainContext\obj\Release\B4U.DomainContext.pdb
+C:\Untidy\box\5\4 — копия\B4U.DomainContext\bin\Release\B4U.DomainContext.dll
+C:\Untidy\box\5\4 — копия\B4U.DomainContext\bin\Release\B4U.DomainContext.pdb
+C:\Untidy\box\5\4 — копия\B4U.DomainContext\bin\Release\PlainElastic.Net.dll
+C:\Untidy\box\5\4 — копия\B4U.DomainContext\bin\Release\PlainElastic.Net.pdb
+C:\Untidy\box\5\4 — копия\B4U.DomainContext\bin\Release\PlainElastic.Net.xml
+C:\Untidy\box\5\4 — копия\B4U.DomainContext\obj\Release\B4U.DomainContext.csprojResolveAssemblyReference.cache
+C:\Untidy\box\5\4 — копия\B4U.DomainContext\obj\Release\B4U.DomainContext.csproj.CoreCompileInputs.cache
+C:\Untidy\box\5\4 — копия\B4U.DomainContext\obj\Release\B4U.DomainContext.dll
+C:\Untidy\box\5\4 — копия\B4U.DomainContext\obj\Release\B4U.DomainContext.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.DomainContext\bin\Release\B4U.DomainContext.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.DomainContext\bin\Release\B4U.DomainContext.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.DomainContext\bin\Release\PlainElastic.Net.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.DomainContext\bin\Release\PlainElastic.Net.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.DomainContext\bin\Release\PlainElastic.Net.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.DomainContext\obj\Release\B4U.DomainContext.csprojAssemblyReference.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.DomainContext\obj\Release\B4U.DomainContext.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.DomainContext\obj\Release\B4U.DomainContext.csproj.CopyComplete
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.DomainContext\obj\Release\B4U.DomainContext.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.DomainContext\obj\Release\B4U.DomainContext.pdb
+C:\develop\git\MerchantApp\B4U.DomainContext\bin\Release\B4U.DomainContext.dll
+C:\develop\git\MerchantApp\B4U.DomainContext\bin\Release\B4U.DomainContext.pdb
+C:\develop\git\MerchantApp\B4U.DomainContext\bin\Release\B4U.Base.dll
+C:\develop\git\MerchantApp\B4U.DomainContext\bin\Release\B4U.ElasticContext.dll
+C:\develop\git\MerchantApp\B4U.DomainContext\bin\Release\PlainElastic.Net.dll
+C:\develop\git\MerchantApp\B4U.DomainContext\bin\Release\PlainSample.dll
+C:\develop\git\MerchantApp\B4U.DomainContext\bin\Release\B4U.Base.pdb
+C:\develop\git\MerchantApp\B4U.DomainContext\bin\Release\B4U.ElasticContext.pdb
+C:\develop\git\MerchantApp\B4U.DomainContext\bin\Release\PlainElastic.Net.pdb
+C:\develop\git\MerchantApp\B4U.DomainContext\bin\Release\PlainElastic.Net.xml
+C:\develop\git\MerchantApp\B4U.DomainContext\obj\Release\B4U.DomainContext.csprojAssemblyReference.cache
+C:\develop\git\MerchantApp\B4U.DomainContext\obj\Release\B4U.DomainContext.csproj.CoreCompileInputs.cache
+C:\develop\git\MerchantApp\B4U.DomainContext\obj\Release\B4U.DomainContext.csproj.CopyComplete
+C:\develop\git\MerchantApp\B4U.DomainContext\obj\Release\B4U.DomainContext.dll
+C:\develop\git\MerchantApp\B4U.DomainContext\obj\Release\B4U.DomainContext.pdb

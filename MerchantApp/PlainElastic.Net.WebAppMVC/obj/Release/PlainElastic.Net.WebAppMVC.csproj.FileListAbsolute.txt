@@ -1,0 +1,578 @@
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ApplicationInsights.config
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll.config
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.pdb
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainSample.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\WebGrease.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.pdb
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.pdb
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.pdb
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.xml
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Helpers.resources.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Mvc.resources.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Optimization.resources.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Razor.resources.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.resources.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csprojResolveAssemblyReference.cache
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CoreCompileInputs.cache
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.dll
+C:\Untidy\box\elasticSearchClient_Net-20180614T070041Z-001\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.pdb
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ApplicationInsights.config
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll.config
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.pdb
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainSample.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\WebGrease.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.pdb
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.pdb
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.pdb
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.xml
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Helpers.resources.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Mvc.resources.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Optimization.resources.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Razor.resources.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.resources.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csprojAssemblyReference.cache
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CoreCompileInputs.cache
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CopyComplete
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.dll
+C:\develop\b4u\1\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.pdb
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ApplicationInsights.config
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll.config
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.pdb
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainSample.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\WebGrease.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.pdb
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.pdb
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.xml
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.xml
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.xml
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.xml
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.xml
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.xml
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.pdb
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.xml
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.xml
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Helpers.resources.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Mvc.resources.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Optimization.resources.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Razor.resources.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.resources.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csprojResolveAssemblyReference.cache
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CoreCompileInputs.cache
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.dll
+C:\Untidy\box\elasticSearchClient_Net\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.pdb
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\ApplicationInsights.config
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll.config
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.pdb
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\B4U.ElasticContext.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\PlainSample.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\WebGrease.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\B4U.Base.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\B4U.ElasticContext.pdb
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.pdb
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.pdb
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.pdb
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.xml
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\B4U.Base.pdb
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Helpers.resources.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Mvc.resources.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Optimization.resources.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Razor.resources.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.resources.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csprojAssemblyReference.cache
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CoreCompileInputs.cache
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CopyComplete
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.dll
+C:\develop\b4u\2\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.pdb
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\ApplicationInsights.config
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll.config
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.pdb
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\B4U.DomainContext.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\B4U.ElasticContext.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\PlainSample.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\WebGrease.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\B4U.Base.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\B4U.DomainContext.pdb
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\B4U.ElasticContext.pdb
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.pdb
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.pdb
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.pdb
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.xml
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\B4U.Base.pdb
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Helpers.resources.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Mvc.resources.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Optimization.resources.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Razor.resources.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.resources.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csprojAssemblyReference.cache
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CoreCompileInputs.cache
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CopyComplete
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.dll
+C:\develop\b4u\3\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.pdb
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\ApplicationInsights.config
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll.config
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.pdb
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\B4U.Base.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\B4U.DomainContext.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\B4U.ElasticContext.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\PlainSample.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\WebGrease.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\B4U.Base.pdb
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\B4U.DomainContext.pdb
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\B4U.ElasticContext.pdb
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.pdb
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.pdb
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.pdb
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.xml
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Helpers.resources.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Mvc.resources.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Optimization.resources.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Razor.resources.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.resources.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csprojAssemblyReference.cache
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CoreCompileInputs.cache
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CopyComplete
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.dll
+C:\develop\b4u\4\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.pdb
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\ApplicationInsights.config
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll.config
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.pdb
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.Base.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.DomainContext.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.ElasticContext.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainSample.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\WebGrease.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.Base.pdb
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.DomainContext.pdb
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.ElasticContext.pdb
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.pdb
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.pdb
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.pdb
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.xml
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Helpers.resources.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Mvc.resources.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Optimization.resources.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Razor.resources.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.resources.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csprojResolveAssemblyReference.cache
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CoreCompileInputs.cache
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.dll
+C:\Untidy\box\5\4 — копия\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\ApplicationInsights.config
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll.config
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.Base.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.DomainContext.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.ElasticContext.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainSample.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\WebGrease.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.Base.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.DomainContext.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.ElasticContext.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csprojAssemblyReference.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CopyComplete
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\EPPlus.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\EPPlus.Extensions.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Syncfusion.Compression.Base.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Syncfusion.Licensing.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Syncfusion.XlsIO.Base.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\EPPlus.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Syncfusion.Compression.Base.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\Syncfusion.XlsIO.Base.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\AutoMapper.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.Dao.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\EntityFramework.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.ValueTuple.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.Dao.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\B4U.Dao.dll.config
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\AutoMapper.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\AutoMapper.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\EntityFramework.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\System.ValueTuple.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\EntityFramework.resources.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\PlainElastic.Net.WebAppMVC\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\ApplicationInsights.config
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll.config
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.WebAppMVC.pdb
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\AutoMapper.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\B4U.Base.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\B4U.Dao.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\B4U.DomainContext.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\B4U.ElasticContext.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\EntityFramework.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\EntityFramework.SqlServer.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\EPPlus.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\EPPlus.Extensions.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\PlainSample.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Syncfusion.Compression.Base.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Syncfusion.Licensing.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Syncfusion.XlsIO.Base.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.ValueTuple.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\WebGrease.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\B4U.Base.pdb
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\B4U.Dao.pdb
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\B4U.Dao.dll.config
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\B4U.DomainContext.pdb
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\B4U.ElasticContext.pdb
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.Base.pdb
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.pdb
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\PlainElastic.Net.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\AutoMapper.pdb
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\AutoMapper.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\EntityFramework.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\EntityFramework.SqlServer.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\EPPlus.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Syncfusion.Compression.Base.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Syncfusion.XlsIO.Base.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.ValueTuple.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.Web.Helpers.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.Web.Mvc.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.Web.Optimization.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.Web.Razor.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\System.Web.WebPages.Razor.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Antlr3.Runtime.pdb
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Newtonsoft.Json.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.ApplicationInsights.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\Microsoft.AI.Web.xml
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\ru\EntityFramework.resources.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Helpers.resources.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Mvc.resources.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Optimization.resources.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.Razor.resources.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.resources.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csprojAssemblyReference.cache
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CoreCompileInputs.cache
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.csproj.CopyComplete
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.dll
+C:\develop\git\MerchantApp\PlainElastic.Net.WebAppMVC\obj\Release\PlainElastic.Net.WebAppMVC.pdb
