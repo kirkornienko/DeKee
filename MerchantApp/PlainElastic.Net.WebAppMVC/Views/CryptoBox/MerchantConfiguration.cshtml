@@ -1,0 +1,95 @@
+﻿@model PlainElastic.Net.WebAppMVC.Models.UserModel
+@{
+    ViewBag.Title = "Merchant configuration";
+    ViewBag.BodyClass = "bg-light";
+}
+
+<div class="container">
+    <div class="py-3 text-center">
+        <h2>CheckIn Form</h2>
+        <p class="lead">Please, to continue registration enter data to the form.</p>
+    </div>
+
+    <div class="row">
+        @using (Html.BeginForm("EditProfile", "CryptoBox", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="Data.Id" id="Data.Id" placeholder="" value="@Model.Id">
+
+            <div class="row">
+                <div class="col-md-6 spacearound">
+                    <label>Name</label>
+                    <input type="text" class="form-control-custom form-control wide-control" name="Data.Name" id="Data.Name" placeholder="" value="@Model.FirstName @Model.LastName" required="">
+                    <div class="invalid-feedback">
+                        Valid name is required.
+                    </div>
+                </div>
+
+                <div class="col-md-6 spacearound">
+
+                    <label>Email</label>
+                    <input type="text" class="form-control-custom  form-control wide-control" name="Data.Email" id="Data.Email" placeholder="" value="@Model.Login" required="">
+                    <div class="invalid-feedback">
+                        Valid Email is required.
+                    </div>
+                </div>
+        
+                <div class="col-md-6 spacearound">
+                    <label>Contact person</label>
+                    <input type="text" class="form-control-custom wide-control  form-control" name="Data.ContactPerson" id="Data.ContactPerson" placeholder="" value="@(Model.Data == null ? null : Model.Data.ContactPerson)" required="">
+                    <div class="invalid-feedback">
+                        Valid contact person is required.
+                    </div>
+                </div>
+
+                <div class="col-md-6 spacearound">
+                    <label>Contact phone number</label>
+                    <input type="text" class="form-control-custom wide-control  form-control" name="Data.ContactPhoneNumber" id="Data.ContactPhoneNumber" placeholder="" value="@Model.PhoneNumber" required="">
+                    <div class="invalid-feedback">
+                        Valid phone number is required.
+                    </div>
+                </div>
+
+                <div class="col-md-6 region">
+
+                </div>
+                <div class="col-md-6 branch">
+
+                </div>
+            </div><hr />
+            <button type="submit" class="btn btn-default">Save</button>
+
+
+
+        }
+    </div>
+
+
+</div>
+
+@section scripts
+{
+<script type="text/javascript">
+    function searchRegions(e) {
+        $.post("/CryptoBox/Regions").then(function (resp) {
+            $("div.region").html(resp);
+            searchBranch(null);
+        })
+    }
+
+    function searchBranch(e) {
+        var r = $("select.region").val();
+        $.post("/CryptoBox/Branches", { regionId: r }).then(function (resp) {
+            $("div.branch").html(resp)
+        })
+    }
+
+    (function () {
+        $(document).ready(function () {
+            searchRegions(null);
+            $("select.region").change(searchBranch);
+        });
+    })();
+
+</script>
+}

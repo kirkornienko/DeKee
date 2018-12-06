@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Init Elastic Index</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+            <form class="form" action="/Elastic/InitElasticIndex" method="post" id="init">
+                <div class="row ">
+                    <div class="col-md-4">
+                        Name:
+                        <input type="text" value="articles" name="name" class="form-control" placeholder="your index name" />
+                        Type:
+                        <input type="text" value="article" name="type" class="form-control" placeholder="your document type name" />
+                    </div>
+                    <div class="col-md-4">
+                        Shards:
+                        <input type="number" name="shards" value="8" class="form-control" />
+                        Replicas:
+                        <input type="number" name="replicas" value="1" class="form-control" />
+                    </div>
+                </div>
+                <br />
+                <input type="submit" value="Init" class="btn btn-primary" />
+            </form>
+        </div>
+    </div>
+</div>

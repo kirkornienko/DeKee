@@ -1,0 +1,123 @@
+﻿@model IEnumerable<PlainElastic.Net.WebAppMVC.Models.UserModel>
+
+@{
+    ViewBag.Title = "Search Users";
+    ViewBag.BodyClass = "bg-light";
+}
+
+
+<div class="container">
+    <div class="py-5 text-center">
+        <h2>Browse CryptoBox</h2>
+    </div>
+    <div class="row">
+        @*<div class="col-md-offset-6 col-md-6 order-md-2 mb-4">
+            <form class="p-2">
+                <div class="input-group">
+                    <input type="text" class="form-control" name="SearchValues.Login" placeholder="Image file name">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-secondary">Let's see</button>
+                    </div>
+                </div>
+            </form>
+        </div>*@
+        <div class="col-md-8 col-md-offset-2 order-md-2 mb-4">
+            <form action="" method="post" name="SearchValues" id="SearchValues" class="p-2">
+
+                @*<div class="col-md-4 text-right">Номер Закупки</div>
+                <div class="col-md-8"><input type="text" name="SearchValues.TenderId" placeholder="Type your search request..." class="form-control" /></div>
+
+                <div class="col-md-4 text-right">Статус</div>
+                <div class="col-md-8"><input type="text" name="SearchValues.StatusId" placeholder="Type your search request..." class="form-control" /></div>
+
+                <div class="col-md-4 text-right">Тип процедуры</div>
+                <div class="col-md-8"><input type="text" name="SearchValues.ProcedureType" placeholder="Type your search request..." class="form-control" /></div>
+
+                <div class="col-md-4 text-right">Регион заказчика</div>
+                <div class="col-md-8"><input type="text" name="SearchValues.RegionId" placeholder="Type your search request..." class="form-control" /></div>
+
+                <div class="col-md-4 text-right">Код ЕГРПОУ Заказчика</div>
+                <div class="col-md-8"><input type="text" name="SearchValues.TaxId" placeholder="Type your search request..." class="form-control" /></div>
+
+                <div class="col-md-4 text-right">Донор</div>
+                <div class="col-md-8"><input type="text" name="SearchValues.Funder" placeholder="Type your search request..." class="form-control" /></div>*@
+
+                @*<div class="col-md-4 text-right">Обобщенное название закупки</div>
+                <div class="col-md-8"><input type="text" name="SearchValues.Title" placeholder="Type your search request..." class="form-control" /></div>
+
+                <div class="col-md-4 text-right">Наименование заказчика</div>
+                <div class="col-md-8"><input type="text" name="SearchValues.OrganizationName" placeholder="Type your search request..." class="form-control" /></div>*@
+
+                @*<div class="col-md-4 text-right">Описание</div>
+                <div class="col-md-8"><input type="text" name="SearchValues.Description" placeholder="Type your search request..." class="form-control" /></div>
+
+                <div class="col-md-4 text-right">Ожидаемая стоимость</div>
+                <div class="col-md-8">
+                    c <input type="text" name="SearchValues.TenderValueAmountFrom" placeholder="Type your search request..." class="form-control" />
+                    по <input type="text" name="SearchValues.TenderValueAmountTill" placeholder="Type your search request..." class="form-control" />
+                </div>
+
+                <div class="col-md-4 text-right">Дата создания закупок </div>
+                <div class="col-md-8">
+                    c <input type="text" name="SearchValues.CreateDateFrom" placeholder="Type your search request..." class="form-control" />
+                    по <input type="text" name="SearchValues.CreateDateTill" placeholder="Type your search request..." class="form-control" />
+                </div>*@
+
+                @*<div class="col-md-4 text-right">Период создания</div>
+                <div class="col-md-8"><input type="text" name="searchValue" placeholder="Type your search request..." class="form-control" /></div>*@
+
+                @*<div class="col-md-4 text-right">Начало приема предложений</div>
+                <div class="col-md-8">
+                    c <input type="text" name="SearchValues.PeriodStartFrom" placeholder="Type your search request..." class="form-control" />
+                    по <input type="text" name="SearchValues.PeriodStartTill" placeholder="Type your search request..." class="form-control" />
+                </div>
+
+                <div class="col-md-4 text-right">Завершение приема предложений</div>
+                <div class="col-md-8">
+                    c <input type="text" name="SearchValues.PeriodEndFrom" placeholder="Type your search request..." class="form-control" />
+                    по <input type="text" name="SearchValues.PeriodEndTill" placeholder="Type your search request..." class="form-control" />
+                </div>*@
+
+                
+
+                @*<div class="col-md-4 text-right">name</div>*@
+                @*<div class="col-md-8"><input type="text" name="searchValue" placeholder="Type your search request..." class="form-control" /></div>*@
+
+
+            </form>
+        </div>
+    </div>
+    <hr />
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+        <div class="col-md-6">
+            <div class="col-md-12 mb-3">
+                @{ 
+                    //var dictionary = new Dictionary<string, string>();
+                    var displayNames = new string[] {"Login", "CreatedDate", "PhoneNumber", "WalletAddress", "Country", "BrunchAddress", "BrunchNumber" };
+                    var props = item.GetType().GetProperties().Where(p => p.CanRead && displayNames.Contains(p.Name));
+                }
+                @foreach (var p in props)
+                {
+                    <br/>
+                <label for="lastName">@(p.Name)</label>
+                <label for="lastName">@(p.GetValue(item))</label>
+                }
+
+            </div>
+            @*<table class="table-hover table">
+                @foreach (var item in dictionary)
+                {
+                    <tr>
+                        <td>@item.Key</td>
+                        <td>@item.Value</td>
+                    </tr>
+                }
+            </table>*@
+        </div>
+        }
+    </div>
+    </div>
+

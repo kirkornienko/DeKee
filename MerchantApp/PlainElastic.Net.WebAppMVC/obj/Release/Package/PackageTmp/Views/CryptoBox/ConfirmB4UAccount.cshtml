@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Confirm Account";
+    Layout = "~/Views/Shared/_PostLoginLayout.cshtml";
+}
+
+<h2 class="d-flex justify-content-between align-items-center mb-3">
+    <span class="text-muted">Confirm Account</span>
+</h2>
+
+<h3>Enter the pin code</h3>
+<input type="text" name="code" class="form-control wide-control code" />
+<br />
+<a class="btn btn-primary" onclick="Confirm()">
+    Go !
+</a>
+<a class="GenerateWallet" style="display:none" href="/CryptoBox/GenerateWallet"></a>
+
+@section scripts
+{
+    <script type="text/javascript">
+        function Confirm() {
+            var otp = $("input.code").val();
+            $.post("/CryptoBox/ConfirmB4UAccount", { code: otp })
+                .then(function (resp) {
+                    if (resp.data) {
+                        window.location.replace('/CryptoBox/GenerateWallet');
+                    }
+                    else {
+                        $("h3").html(resp);
+                    }
+            })
+        }
+    </script>
+}

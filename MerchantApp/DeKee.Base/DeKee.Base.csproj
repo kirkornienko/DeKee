@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F7EE7DD0-664A-4E97-9DE0-1F0215863FAF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>B4U.Base</RootNamespace>
+    <AssemblyName>B4U.Base</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Compression.Base, Version=16.2460.0.50, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Compression.Base.16.2.0.50\lib\net46\Syncfusion.Compression.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing, Version=16.3460.0.36, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Licensing.16.3.0.36\lib\net46\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.XlsIO.Base, Version=16.2460.0.50, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.XlsIO.Base.16.2.0.50\lib\net46\Syncfusion.XlsIO.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Consts.cs" />
+    <Compile Include="Contexts\EmptyContext.cs" />
+    <Compile Include="Contexts\IContext.cs" />
+    <Compile Include="Entities\Address\Address.cs" />
+    <Compile Include="Entities\Address\CustomerAddress.cs" />
+    <Compile Include="Entities\Audit\Event.cs" />
+    <Compile Include="Entities\BaseEntity.cs" />
+    <Compile Include="Entities\Customer\Customer.cs" />
+    <Compile Include="Entities\Customer\CustomerApplication.cs" />
+    <Compile Include="Entities\Customer\CustomerFile.cs" />
+    <Compile Include="Entities\Customer\IdentityDocument.cs" />
+    <Compile Include="Entities\Custom\CustomDataScheme.cs" />
+    <Compile Include="Entities\Custom\CustomeDataScheme.cs" />
+    <Compile Include="Entities\Custom\CustomPropertyRegestry.cs" />
+    <Compile Include="Entities\Custom\CustomType.cs" />
+    <Compile Include="Entities\Custom\CustomValue.cs" />
+    <Compile Include="Entities\DataStorage\FileType.cs" />
+    <Compile Include="Entities\Globalization\Country.cs" />
+    <Compile Include="Enums\Sex.cs" />
+    <Compile Include="Entities\Custom\CustomProperty.cs" />
+    <Compile Include="Entities\Organization\Branch.cs" />
+    <Compile Include="Entities\Organization\BranchProperty.cs" />
+    <Compile Include="Entities\Organization\BranchType.cs" />
+    <Compile Include="Entities\Organization\Division.cs" />
+    <Compile Include="Entities\Organization\Position.cs" />
+    <Compile Include="Entities\Organization\UserRole.cs" />
+    <Compile Include="Entities\Organization\Role.cs" />
+    <Compile Include="Entities\Organization\User.cs" />
+    <Compile Include="Entities\Security\Authority.cs" />
+    <Compile Include="Entities\Transfer\Transfer.cs" />
+    <Compile Include="Entities\User\User.cs" />
+    <Compile Include="Entities\User\UserFile.cs" />
+    <Compile Include="Interfaces\CustomEnvelope.cs" />
+    <Compile Include="Interfaces\IFileData.cs" />
+    <Compile Include="Modules\ApplicationModule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

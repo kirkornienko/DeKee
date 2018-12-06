@@ -1,0 +1,46 @@
+﻿@model PlainElastic.Net.WebAppMVC.Dto.ReserveTransferOutput
+<br/>
+<div class="col-md-12">
+    <table class="table table-responsive table-striped" style="max-height:300px">
+        @if (Model.BFYAmount != 0M)
+        {
+            <tr>
+                <td for="lastName">Amount in BEEFY</td>
+                <td for="lastName">@Model.BFYAmount</td>
+            </tr>
+        }
+        @if (Model.BTCAmount != 0M)
+        {
+            <tr>
+                <td for="lastName">Amount in BTC</td>
+                <td for="lastName">@(Model.BTCAmount)</td>
+            </tr>
+        }
+        @if (Model.GasAmount != 0M)
+        {
+            <tr>
+                <td for="lastName">Gas</td>
+                <td for="lastName">@(Model.GasAmount)</td>
+            </tr>
+        }
+
+        @{
+            //var dictionary = new Dictionary<string, string>();
+            var props = Model.data.GetType().GetProperties().Where(p => p.CanRead);
+        }
+        @foreach (var p in props)
+        {
+
+            var data = (p.GetValue(Model.data));
+
+            if (data != null && !string.IsNullOrEmpty(data as string))
+            {
+                <tr>
+                    <td for="lastName">@(p.Name)</td>
+                    <td for="lastName">@(p.GetValue(Model.data))</td>
+                </tr>
+            }
+        }
+    </table>
+    @*<hr />*@
+</div>

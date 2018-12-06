@@ -1,0 +1,225 @@
+using System;
+using System.Linq;
+using System.Linq.Expressions;
+using PlainElastic.Net.Utils;
+
+namespace PlainElastic.Net
+{
+    /// <summary>
+    /// The more like this (mlt) API allows to get documents that are “like” a specified document.
+    /// http://www.elasticsearch.org/guide/reference/api/more-like-this.html
+    /// </summary>
+    public class MoreLikeThisCommand : CommandBuilder<MoreLikeThisCommand>
+    {
+        public string Index { get; private set; }
+
+        public string Type { get; private set; }
+
+        public string Id { get; private set; }
+
+
+        public MoreLikeThisCommand(string index, string type, string id)
+        {
+            Index = index;
+            Type = type;
+            Id = id;
+        }
+
+
+        #region Query Parameters
+
+        /// <summary>
+        /// A list of the fields to run the more like this query against. Defaults to the _all field
+        /// </summary>
+        public MoreLikeThisCommand MltFields(string fields)
+        {
+            WithParameter("mlt_fields", fields);
+            return this;
+        }
+
+        /// <summary>
+        /// A list of the fields to run the more like this query against. Defaults to the _all field
+        /// </summary>
+        public MoreLikeThisCommand MltFields<T>(params Expression<Func<T, object>>[] properties)
+        {
+            string fields = properties.Select(prop => prop.GetPropertyPath()).JoinWithComma();
+            WithParameter("mlt_fields", fields);
+            return this;
+        }
+
+        /// <summary>
+        /// The percentage of terms to match on (float value). Defaults to 0.3 (30 percent).
+        /// </summary>
+        public MoreLikeThisCommand PercentTermsToMatch(double value)
+        {
+            WithParameter("percent_terms_to_match", value.AsString());
+            return this;
+        }
+
+        /// <summary>
+        /// The frequency below which terms will be ignored in the source doc. The default frequency is 2.
+        /// </summary>
+        public MoreLikeThisCommand MinTermFreq(int value)
+        {
+            WithParameter("min_term_freq", value.AsString());
+            return this;
+        }
+
+        /// <summary>
+        /// The maximum number of query terms that will be included in any generated query.
+        /// Defaults to 25.
+        /// </summary>
+        public MoreLikeThisCommand MaxQueryTerms(int value)
+        {
+            WithParameter("max_query_terms", value.AsString());
+            return this;
+        }
+
+        /// <summary>
+        /// Sets a list of stopwords to initialize the stop filter with.
+        /// Defaults to the language stop words.
+        /// </summary>
+        public MoreLikeThisCommand StopWords(params string[] terms)
+        {
+            WithParameter("stop_words", terms.JoinWithComma());
+            return this;
+        }
+
+        /// <summary>
+        /// The frequency at which words will be ignored which do not occur in at least this many docs.
+        /// Defaults to 5.
+        /// </summary>
+        public MoreLikeThisCommand MinDocFreq(int value)
+        {
+            WithParameter("min_doc_freq", value.AsString());
+            return this;
+        }
+
+        /// <summary>
+        /// The maximum frequency in which words may still appear. Words that appear in more than this many docs will be ignored.
+        /// Defaults to unbounded.
+        /// </summary>
+        public MoreLikeThisCommand MaxDocFreq(int value)
+        {
+            WithParameter("max_doc_freq", value.AsString());
+            return this;
+        }
+
+        /// <summary>
+        /// The minimum word length below which words will be ignored. Defaults to 0.
+        /// </summary>
+        public MoreLikeThisCommand MinWordLen(int value)
+        {
+            WithParameter("min_word_len", value.AsString());
+            return this;
+        }
+
+        /// <summary>
+        /// The maximum word length above which words will be ignored.
+        /// Defaults to unbounded (0).
+        /// </summary>
+        public MoreLikeThisCommand MaxWordLen(int value)
+        {
+            WithParameter("max_word_len", value.AsString());
+            return this;
+        }
+
+        /// <summary>
+        /// Sets the boost factor to use when boosting terms. Defaults to 1.
+        /// </summary>
+        public MoreLikeThisCommand BoostTerms(int value)
+        {
+            WithParameter("boost_terms", value.AsString());
+            return this;
+        }
+
+        /// <summary>
+        /// Sets the boost value of the query. Defaults to 1.0.
+        /// </summary>
+        public MoreLikeThisCommand Boost(double value)
+        {
+            WithParameter("boost", value.AsString());
+            return this;
+        }
+
+        /// <summary>
+        /// The type of the search operation to perform.
+        /// Defaults to query_then_fetch.
+        /// see http://www.elasticsearch.org/guide/reference/api/search/search-type.html
+        /// </summary>
+        public MoreLikeThisCommand SearchType(SearchType searchType)
+        {
+            WithParameter("search_type", searchType.AsString());
+            return this;
+        }
+
+        /// <summary>
+        /// Indices to search within.
+        /// </summary>
+        public MoreLikeThisCommand SearchIndices(string [] indices)
+        {
+            WithParameter("search_indices", indices.JoinWithComma());
+            return this;
+        }
+
+        /// <summary>
+        /// Types to search within.
+        /// </summary>
+        public MoreLikeThisCommand SearchTypes(string [] types)
+        {
+            WithParameter("search_types", types.JoinWithComma());
+            return this;
+        }
+        
+        public MoreLikeThisCommand SearchQueryHint(string searchQueryHint)
+        {
+            WithParameter("search_query_hint", searchQueryHint);
+            return this;
+        }
+
+        /// <summary>
+        /// The starting from index of the hits to return. Defaults to 0.
+        /// </summary>
+        public MoreLikeThisCommand SearchFrom(int fromIndex = 0)
+        {
+            WithParameter("search_from", fromIndex.AsString());
+            return this;
+        }
+
+        /// <summary>
+        /// The number of hits to return. Defaults to 10.
+        /// </summary>
+        public MoreLikeThisCommand SearchSize(int search_size = 10)
+        {
+            WithParameter("search_size", search_size.AsString());
+            return this;
+        }
+        
+
+        /// <summary>
+        /// The scroll parameter is a time value parameter (for example: scroll=5m), 
+        /// indicating for how long the nodes that participate in the search will maintain relevant resources in order to continue and support it.
+        /// see http://www.elasticsearch.org/guide/reference/api/search/scroll.html
+        /// </summary>
+        public MoreLikeThisCommand SearchScroll(string scrollActiveTime)
+        {
+            WithParameter("search_scroll", scrollActiveTime);
+            return this;
+        }
+
+        public MoreLikeThisCommand SearchSource(string searchSource)
+        {
+            WithParameter("search_source", searchSource);
+            return this;
+        }
+
+        #endregion
+
+
+        protected override string BuildUrlPathLowerPart()
+        {
+            return UrlBuilder.BuildUrlPath(Index, Type, Id, "_mlt");
+        }
+
+    }
+}

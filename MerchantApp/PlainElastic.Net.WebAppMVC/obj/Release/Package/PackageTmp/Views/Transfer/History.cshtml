@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "History";
+    Layout = "~/Views/Shared/_PostLoginLayout.cshtml";
+}
+
+
+
+<div class="row">
+    <div class="col-lg-8">
+        <h2 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted">Transfers</span>
+        </h2>
+    </div>
+    <div class="col-lg-8 col-md-12">
+        <input type="text" class="form-control search wide-control" placeholder="phone number, name, amount..." />
+        @*<a class="btn btn-default" onclick="search()">Go!</a>*@
+    </div>
+</div>
+<br/>
+<div class="container row data">
+    
+</div>
+
+
+@section scripts
+{
+<script type="text/javascript">
+    (function () {
+        $(document).ready(function () {
+            $("input.search").keyup(search)
+        });
+        $(document).ready(search);
+    })();
+
+    function search () {
+        var q = $("input.search").val();
+        //var size = $("select.size").val();
+
+        $.post("/Transfer/List", { searchQuery: q }).then(function (resp) {
+            $("div.data").html(resp)
+        })
+    }
+</script>
+}

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title – Crypto Box</title>
+    @Styles.Render("~/Content/sitecss")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    
+    @RenderBody()
+
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <p class="mb-1">© @(DateTime.Today.Year) Bank4You Group</p>
+            @*<ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Privacy</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Support</a></li>
+            </ul>*@
+        </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

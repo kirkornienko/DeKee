@@ -1,0 +1,35 @@
+﻿@model IEnumerable<object>
+
+@foreach (var item in Model)
+{
+    <div class="@(Model.Count() > 1 ? "col-md-6" : "col-md-12") ">
+        <div class="col-md-12 mb-3">
+            @{
+                //var dictionary = new Dictionary<string, string>();
+                var props = item.GetType().GetProperties().Where(p => p.CanRead);
+            }
+            @foreach (var p in props)
+            {
+                <input type="hidden" value="@(p.GetValue(item))" class="selectItem @(item.GetType().Name) @(p.Name)" />
+                if (p.PropertyType != typeof(string))
+                {
+                    continue;
+                }
+                <div class="@(p.Name)">
+                    <label for="lastName" class="text-muted ">@(p.Name)</label>
+                    <label for="lastName" class="label-primary">@(p.GetValue(item))</label>
+                </div>
+            }
+            <br />
+        </div>
+        @*<table class="table-hover table">
+                @foreach (var item in dictionary)
+                {
+                    <tr>
+                        <td>@item.Key</td>
+                        <td>@item.Value</td>
+                    </tr>
+                }
+            </table>*@
+    </div>
+}

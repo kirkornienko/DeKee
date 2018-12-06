@@ -1,0 +1,77 @@
+C:\develop\b4u\2\B4U.ElasticContext\bin\Release\B4U.ElasticContext.dll
+C:\develop\b4u\2\B4U.ElasticContext\bin\Release\B4U.ElasticContext.pdb
+C:\develop\b4u\2\B4U.ElasticContext\bin\Release\B4U.Base.dll
+C:\develop\b4u\2\B4U.ElasticContext\bin\Release\PlainElastic.Net.dll
+C:\develop\b4u\2\B4U.ElasticContext\bin\Release\PlainSample.dll
+C:\develop\b4u\2\B4U.ElasticContext\bin\Release\B4U.Base.pdb
+C:\develop\b4u\2\B4U.ElasticContext\bin\Release\PlainElastic.Net.pdb
+C:\develop\b4u\2\B4U.ElasticContext\bin\Release\PlainElastic.Net.xml
+C:\develop\b4u\2\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csprojAssemblyReference.cache
+C:\develop\b4u\2\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csproj.CoreCompileInputs.cache
+C:\develop\b4u\2\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csproj.CopyComplete
+C:\develop\b4u\2\B4U.ElasticContext\obj\Release\B4U.ElasticContext.dll
+C:\develop\b4u\2\B4U.ElasticContext\obj\Release\B4U.ElasticContext.pdb
+C:\develop\b4u\3\B4U.ElasticContext\bin\Release\B4U.ElasticContext.dll
+C:\develop\b4u\3\B4U.ElasticContext\bin\Release\B4U.ElasticContext.pdb
+C:\develop\b4u\3\B4U.ElasticContext\bin\Release\B4U.Base.dll
+C:\develop\b4u\3\B4U.ElasticContext\bin\Release\PlainElastic.Net.dll
+C:\develop\b4u\3\B4U.ElasticContext\bin\Release\PlainSample.dll
+C:\develop\b4u\3\B4U.ElasticContext\bin\Release\B4U.Base.pdb
+C:\develop\b4u\3\B4U.ElasticContext\bin\Release\PlainElastic.Net.pdb
+C:\develop\b4u\3\B4U.ElasticContext\bin\Release\PlainElastic.Net.xml
+C:\develop\b4u\3\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csprojAssemblyReference.cache
+C:\develop\b4u\3\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csproj.CoreCompileInputs.cache
+C:\develop\b4u\3\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csproj.CopyComplete
+C:\develop\b4u\3\B4U.ElasticContext\obj\Release\B4U.ElasticContext.dll
+C:\develop\b4u\3\B4U.ElasticContext\obj\Release\B4U.ElasticContext.pdb
+C:\develop\b4u\4\B4U.ElasticContext\bin\Release\B4U.ElasticContext.dll
+C:\develop\b4u\4\B4U.ElasticContext\bin\Release\B4U.ElasticContext.pdb
+C:\develop\b4u\4\B4U.ElasticContext\bin\Release\B4U.Base.dll
+C:\develop\b4u\4\B4U.ElasticContext\bin\Release\PlainElastic.Net.dll
+C:\develop\b4u\4\B4U.ElasticContext\bin\Release\PlainSample.dll
+C:\develop\b4u\4\B4U.ElasticContext\bin\Release\B4U.Base.pdb
+C:\develop\b4u\4\B4U.ElasticContext\bin\Release\PlainElastic.Net.pdb
+C:\develop\b4u\4\B4U.ElasticContext\bin\Release\PlainElastic.Net.xml
+C:\develop\b4u\4\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csprojAssemblyReference.cache
+C:\develop\b4u\4\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csproj.CoreCompileInputs.cache
+C:\develop\b4u\4\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csproj.CopyComplete
+C:\develop\b4u\4\B4U.ElasticContext\obj\Release\B4U.ElasticContext.dll
+C:\develop\b4u\4\B4U.ElasticContext\obj\Release\B4U.ElasticContext.pdb
+C:\Untidy\box\5\4 — копия\B4U.ElasticContext\bin\Release\B4U.ElasticContext.dll
+C:\Untidy\box\5\4 — копия\B4U.ElasticContext\bin\Release\B4U.ElasticContext.pdb
+C:\Untidy\box\5\4 — копия\B4U.ElasticContext\bin\Release\B4U.Base.dll
+C:\Untidy\box\5\4 — копия\B4U.ElasticContext\bin\Release\PlainElastic.Net.dll
+C:\Untidy\box\5\4 — копия\B4U.ElasticContext\bin\Release\PlainSample.dll
+C:\Untidy\box\5\4 — копия\B4U.ElasticContext\bin\Release\B4U.Base.pdb
+C:\Untidy\box\5\4 — копия\B4U.ElasticContext\bin\Release\PlainElastic.Net.pdb
+C:\Untidy\box\5\4 — копия\B4U.ElasticContext\bin\Release\PlainElastic.Net.xml
+C:\Untidy\box\5\4 — копия\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csprojResolveAssemblyReference.cache
+C:\Untidy\box\5\4 — копия\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csproj.CoreCompileInputs.cache
+C:\Untidy\box\5\4 — копия\B4U.ElasticContext\obj\Release\B4U.ElasticContext.dll
+C:\Untidy\box\5\4 — копия\B4U.ElasticContext\obj\Release\B4U.ElasticContext.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.ElasticContext\bin\Release\B4U.ElasticContext.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.ElasticContext\bin\Release\B4U.ElasticContext.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.ElasticContext\bin\Release\B4U.Base.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.ElasticContext\bin\Release\PlainElastic.Net.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.ElasticContext\bin\Release\PlainSample.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.ElasticContext\bin\Release\B4U.Base.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.ElasticContext\bin\Release\PlainElastic.Net.pdb
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.ElasticContext\bin\Release\PlainElastic.Net.xml
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csprojAssemblyReference.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csproj.CopyComplete
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.ElasticContext\obj\Release\B4U.ElasticContext.dll
+C:\Users\Denis\Downloads\4_123\4 — копия\B4U.ElasticContext\obj\Release\B4U.ElasticContext.pdb
+C:\develop\git\MerchantApp\B4U.ElasticContext\bin\Release\B4U.ElasticContext.dll
+C:\develop\git\MerchantApp\B4U.ElasticContext\bin\Release\B4U.ElasticContext.pdb
+C:\develop\git\MerchantApp\B4U.ElasticContext\bin\Release\B4U.Base.dll
+C:\develop\git\MerchantApp\B4U.ElasticContext\bin\Release\PlainElastic.Net.dll
+C:\develop\git\MerchantApp\B4U.ElasticContext\bin\Release\PlainSample.dll
+C:\develop\git\MerchantApp\B4U.ElasticContext\bin\Release\B4U.Base.pdb
+C:\develop\git\MerchantApp\B4U.ElasticContext\bin\Release\PlainElastic.Net.pdb
+C:\develop\git\MerchantApp\B4U.ElasticContext\bin\Release\PlainElastic.Net.xml
+C:\develop\git\MerchantApp\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csprojAssemblyReference.cache
+C:\develop\git\MerchantApp\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csproj.CoreCompileInputs.cache
+C:\develop\git\MerchantApp\B4U.ElasticContext\obj\Release\B4U.ElasticContext.csproj.CopyComplete
+C:\develop\git\MerchantApp\B4U.ElasticContext\obj\Release\B4U.ElasticContext.dll
+C:\develop\git\MerchantApp\B4U.ElasticContext\obj\Release\B4U.ElasticContext.pdb

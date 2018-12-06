@@ -1,0 +1,188 @@
+﻿@{
+    ViewBag.Title = "Merchant To Phone Number";
+    Layout = "~/Views/Shared/_PostLoginLayout.cshtml";
+}
+
+<h2 class="d-flex justify-content-between align-items-center mb-3">
+    <span class="text-muted">Mobile top Up</span>
+</h2>
+<hr />
+<div class="row inputData">
+    <div class="col-lg-6 sender">
+        
+    </div>
+    <div class="col-lg-6 receiver">
+        <h3 class="d-flex justify-content-between align-items-center mb-3">Receiver</h3>
+        
+        <input type="text" id="phoneNumber" class="receiverNumber form-control" name="phoneNumber" placeholder="+XxxXXXxxxx" />
+        <input type="hidden" id="receiver" name="receiver" />
+        <input type="hidden" id="receiverId" name="receiver" />
+        <br/>
+        <div class="row data ">
+
+        </div>
+        <a onclick="initSelect(receiver)" class="btn btn-default select">Select ></a>
+    </div>
+    <div class="col-lg-12">
+        <a onclick="initSelectAmount()" style="display:none">Select amount</a>
+    </div>
+</div>
+<br />
+
+<div class="row">
+    <h3 class="selectInfo"></h3>
+    <div class="col-md-12 amounts">
+        <div class="row data">
+
+        </div>
+
+    </div>
+</div>
+@section scripts
+{
+    <script type="text/javascript">
+        var receiver = 'receiver';
+        var sender = 'sender';
+        var product = 'product';
+        var currentSelect = receiver;
+        var transactionId;
+        function executeSearch() {
+            $.post("/Transfer/SearchUserForTransfer", { search: $("input.search").val() }).then(function (resp) {
+                $("div.amounts > div.data").html(resp);
+
+                if (selectType === receiver) {
+                    $("div.WalletAddress").css("display", "none");
+                } else if (selectType === sender) {
+                    $("div.PhoneNumber").css("display", "none");
+                }
+            });
+        }
+        function initSelect(selectType) {
+            var number = $("input.receiverNumber").val()
+
+            if (number) {
+                initSelectAmount();
+                return;
+            }
+
+            $("h3.selectInfo").html("Select " + selectType);
+            currentSelect = selectType;
+            $("div.amounts > div.data").html("");
+
+            executeSearch();           
+        }
+        function selectAmount(amount) {
+
+        }
+        function selectItem(elem) {
+            //$(elem).parent().
+        }
+        function selectId(userId) {
+            $("h3.selectInfo").html("");
+            $("div.amounts > div.data").html("");
+
+            $('input#' + currentSelect).val(userId);
+            var getUserReq = { Id: userId };
+            $.post("/Customer/GetUser", getUserReq).then(
+                function (resp) {
+                    $("div." + currentSelect + " > div.data").html(resp)
+                    $("input." + currentSelect + "Id").val(userId);
+
+                    var number = $("input.selectItem.CustomerModel.PhoneNumber").val();
+
+                    $("input.receiverNumber").val(number);
+
+                    initSelectAmount();
+                });
+
+
+            //initSelectAmount();
+
+        }
+        function displayUser(resp) {
+
+            var divResult = "div.user-info";
+            ShowUserInfo(resp, divResult);
+            //alert("123");
+            //$(divResult + " > .col-md-12 > .mb-3 > div").css("display", "none");
+            //$(divResult + " > .col-md-12 > .mb-3 > div.Name").css("display", "initial");
+            //$(divResult + " > .col-md-12 > .mb-3 > div.WalletAddress").css("display", "initial");
+            //$(divResult + " > .col-md-12 > .mb-3 > div.Email").css("display", "initial");
+
+            //initSelectAmount();
+        }
+
+        function ShowUserInfo(resp, divResult) {
+            
+            $(divResult).html(resp)
+            
+        }
+        function LoadUser(req, displayUserHandler) {
+            $.post("/Customer/GetUser", req).then(function (resp) {
+                receiverId = req.Id;
+                displayUserHandler(resp);
+            });
+        }
+        function ConfirmTransaction() {
+            if (transactionId) {
+                var req = { transactionId: transactionId };
+                $("div.amounts > div.data").html("Transaction execution is in progress...");
+                $.post("/Transfer/ConfirmMerchantToPerson", req).then(function (resp) {
+                    $("div.amounts > div.data").html(resp);
+                })
+            } else {
+                $("div.amounts > div.data").html("Transaction is not prepared...");
+            }
+        }
+        function initSelectAmount() {
+            //$("a.select").html('Go >');
+            var number = $("input.receiverNumber").val();
+            var rec_id = $('input#receiver').val();
+
+            if (!number && !rec_id && rec_id.length < 3)
+                return;
+
+            $("h3.selectInfo").html("Select amount");
+            currentSelect = product;
+            $("div.amounts > div.data").html("");
+
+            var req = { input: number, customerId: "", receiverId: rec_id }
+            $.post("/Transfer/CheckTransferService", req).then(
+                function (resp) {
+                    if (resp.data)
+                        alert(resp.data.country);
+                    else {
+                        $("div.amounts > div.data").html(resp);
+                        $("button.topup").click(function (e) {
+                            $("h3.selectInfo").html("Transaction info");
+                            $("div.amounts > div.data").html("Please, wait for transaction to complete...");
+
+                            var prepareDto =
+                                {
+                                    ReceiverId: $("input#receiver").val(),
+                                    RetailAmount: $(this.parentElement).children("input.retailAmount").val(),
+                                    Product: $(this.parentElement).children("input.product").val(),
+                                    OperatorId: $(this.parentElement).children("input.operatorid").val(),
+                                    SenderNumber: $(this.parentElement).children("input.msisdn").val(),
+                                    DestinationNumber: $(this.parentElement).children("input.destination_msisdn").val()
+                                };
+                            //alert(prepareDto.product);
+                            $.post("/Transfer/PrepareMerchantToPhoneNumber", prepareDto).then(function (prepareResp) {
+
+                                $("div.amounts > div.data").html(prepareResp);
+                                var getUserReq = { Id: prepareDto.ReceiverId };
+                                transactionId = $("input.transactionId").val();
+                                if (prepareDto.ReceiverId)
+                                    LoadUser(getUserReq, displayUser)
+                                //alert(prepareResp);
+                            });
+                            $("div.inputData").css("display", "none");
+                        });
+                    }
+
+
+                }
+            );
+        }
+    </script>
+}

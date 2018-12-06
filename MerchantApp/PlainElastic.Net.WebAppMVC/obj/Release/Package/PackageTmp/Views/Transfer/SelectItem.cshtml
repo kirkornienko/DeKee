@@ -1,0 +1,82 @@
+﻿@model PlainElastic.Net.WebAppMVC.Models.CryptoBox.CustomerModel[]
+
+<table class="table table-responsive">
+    <tr>
+        <th>Name</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+        <th>Wallet</th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.PhoneNumber</td>
+            <td>@item.Email</td>
+            <td>@item.WalletAddress</td>
+            <td>
+                @{
+                    //var dictionary = new Dictionary<string, string>();
+                    var props = item.GetType().GetProperties().Where(p => p.CanRead);
+                    var IdProp = props.FirstOrDefault(p => p.Name == "Id");
+                }
+
+                @foreach (var p in props)
+                {
+                    <input type="hidden" value="@(p.GetValue(item))" class="selectItem @(item.GetType().Name) @(p.Name)" />
+                }
+
+                @if (IdProp == null)
+                {
+                    <a onclick="selectItem(this)" class="btn btn-default selectItem">Select this item</a>
+                }
+                else
+                {
+                    var id = IdProp.GetValue(item);
+
+                    <a onclick="selectId('@id')" class="btn btn-outline-secondary selectItem selectId">Select ></a>
+                }
+            </td>
+        </tr>
+    }
+</table>
+
+@*@foreach (var item in Model)
+    {
+        <div class="col-md-6">
+            <div class="col-md-12 mb-3">
+                @{
+                    //var dictionary = new Dictionary<string, string>();
+                    var props = item.GetType().GetProperties().Where(p => p.CanRead);
+                    var IdProp = props.FirstOrDefault(p => p.Name == "Id");
+
+                }
+                @foreach (var p in props)
+                {
+                    <input type="hidden" value="@(p.GetValue(item))" class="selectItem @(item.GetType().Name) @(p.Name)" />
+                    if (p.PropertyType != typeof(string))
+                    {
+                        continue;
+                    }
+                    <div class="@(p.Name)">
+                        <label for="lastName" class="text-muted">@(p.Name)</label>
+                        <label for="lastName" class="label-primary">@(p.GetValue(item))</label>
+                    </div>
+                }
+
+                @if (IdProp == null)
+                {
+                    <a onclick="selectItem(this)" class="btn btn-default selectItem">Select this item</a>
+                }
+                else
+                {
+                    var id = IdProp.GetValue(item);
+
+                    <a onclick="selectId('@id')" class="btn btn-primary selectItem selectId">Select</a>
+                }
+            </div>
+            
+    </div>
+}
+*@

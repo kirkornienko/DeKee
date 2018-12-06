@@ -1,0 +1,9 @@
+﻿@model IEnumerable<PlainElastic.Net.WebAppMVC.Models.CryptoBox.Branch>
+
+<label>Branch</label>
+<select class="form-control-custom wide-control branch form-control" name="Data.Branch" required="">
+    @foreach (var i in Model)
+    {
+        <option value="@i.Id">@i.Name (@i.Code)</option>
+    }
+</select>

@@ -1,0 +1,271 @@
+PLAIN SAMPLE
+Executed: 
+PUT twitter/tweet/1?refresh=true&pretty=true 
+{"User":"testUser","Message":"trying out Elastic Search"} 
+
+Index Results 
+{
+  "_index" : "twitter",
+  "_type" : "tweet",
+  "_id" : "1",
+  "_version" : 1,
+  "result" : "created",
+  "forced_refresh" : true,
+  "_shards" : {
+    "total" : 2,
+    "successful" : 1,
+    "failed" : 0
+  },
+  "_seq_no" : 0,
+  "_primary_term" : 1
+}
+ 
+
+Parsed Index Results
+ _index: twitter
+ _type: tweet
+ _id: 1
+ _version: 1
+
+Executed: 
+PUT twitter/tweet/2?refresh=true&pretty=true 
+{"User":"anotherUser","Message":"one more message"} 
+
+Index Results 
+{
+  "_index" : "twitter",
+  "_type" : "tweet",
+  "_id" : "2",
+  "_version" : 1,
+  "result" : "created",
+  "forced_refresh" : true,
+  "_shards" : {
+    "total" : 2,
+    "successful" : 1,
+    "failed" : 0
+  },
+  "_seq_no" : 0,
+  "_primary_term" : 1
+}
+ 
+
+Parsed Index Results
+ _index: twitter
+ _type: tweet
+ _id: 2
+ _version: 1
+
+Executed: 
+POST twitter/tweet/_bulk?refresh=true 
+{ "index": { "_id": "10" } }
+{"User":"firstUser","Message":"first bulk tweet"}
+{ "index": { "_id": "11" } }
+{"User":"secondUser","Message":"second bulk tweet"}
+{ "index": { "_id": "12" } }
+{"User":"thirdUser","Message":"third bulk tweet"}
+ 
+
+Parsed Bulk Results
+ operation: Index
+     _index: twitter
+     _type: tweet
+     _id: 10
+
+ operation: Index
+     _index: twitter
+     _type: tweet
+     _id: 11
+
+ operation: Index
+     _index: twitter
+     _type: tweet
+     _id: 12
+
+Executed: 
+PUT twitter/_alias/twitter_alias?pretty=true 
+
+Alias Result: 
+ {
+  "acknowledged" : true
+}
+ 
+
+Executed: 
+GET twitter/tweet/1?pretty=true 
+
+Get Result: 
+ {
+    "_index": "twitter",
+    "_type": "tweet",
+    "_id": "1",
+    "_version": 1,
+    "found": true,
+    "_source": {
+        "User": "testUser",
+        "Message": "trying out Elastic Search"
+    }
+}
+ 
+
+Parsed Get Result: 
+ User: testUser
+ Message: trying out Elastic Search
+
+Executed: 
+POST twitter/tweet/_search?pretty=true 
+{
+    "query": {
+        "term": {
+            "User": {
+                "value": "testuser",
+                "boost": 5
+            }
+        }
+    }
+} 
+
+Search Result: 
+ {
+  "took" : 1,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 1,
+    "max_score" : 1.4384104,
+    "hits" : [
+      {
+        "_index" : "twitter",
+        "_type" : "tweet",
+        "_id" : "1",
+        "_score" : 1.4384104,
+        "_source" : {
+          "User" : "testUser",
+          "Message" : "trying out Elastic Search"
+        }
+      }
+    ]
+  }
+}
+ 
+
+Parsed Search Results
+ took: 1
+ timed_out: False
+ _shards:
+     total: 5
+     successful: 5
+     failed: 0
+ hits: 
+     total: 1
+     max_score: 1,4384104
+     hits: 
+         _id: 1
+         _index: twitter
+         _type: tweet
+         _score: 1,4384104
+         _source:
+             User: testUser
+             Message: trying out Elastic Search
+
+
+PlainElastic.Net.OperationException: {
+  "error" : {
+    "root_cause" : [
+      {
+        "type" : "parsing_exception",
+        "reason" : "request does not support [term]",
+        "line" : 2,
+        "col" : 5
+      }
+    ],
+    "type" : "parsing_exception",
+    "reason" : "request does not support [term]",
+    "line" : 2,
+    "col" : 5
+  },
+  "status" : 400
+}
+ ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (400) Недопустимый запрос.
+   в System.Net.HttpWebRequest.GetResponse()
+   в PlainElastic.Net.ElasticConnection.ExecuteRequest(String method, String command, String jsonData) в C:\Development\git\d.zakh\elasticSearchClient_Net\src\PlainElastic.Net\Connection\ElasticConnection.cs:строка 131
+   --- Конец трассировки внутреннего стека исключений ---
+   в PlainElastic.Net.ElasticConnection.ExecuteRequest(String method, String command, String jsonData) в C:\Development\git\d.zakh\elasticSearchClient_Net\src\PlainElastic.Net\Connection\ElasticConnection.cs:строка 141
+   в PlainElastic.Net.ElasticConnection.Post(String command, String jsonData) в C:\Development\git\d.zakh\elasticSearchClient_Net\src\PlainElastic.Net\Connection\ElasticConnection.cs:строка 67
+   в PlainSample.PlainSample.CountTweets(ElasticConnection connection, JsonNetSerializer serializer) в C:\Development\git\d.zakh\elasticSearchClient_Net\src\Samples\PlainSample\PlainSample.cs:строка 376
+   в PlainSample.PlainSample.<>c__DisplayClass0_0.<Execute>b__6() в C:\Development\git\d.zakh\elasticSearchClient_Net\src\Samples\PlainSample\PlainSample.cs:строка 69
+   в PlainSample.Extensions.R(Action action) в C:\Development\git\d.zakh\elasticSearchClient_Net\src\Samples\PlainSample\Extensions.cs:строка 15
+Executed: 
+DELETE twitter?pretty=true 
+
+Delete RESULT: 
+{
+  "acknowledged" : true
+}
+ 
+
+Parsed Delete Results
+ acknowledged: True
+ _index: 
+ _type: 
+ _id: 
+ found: False
+
+Press any key
+sCLIENT SAMPLE
+PlainElastic.Net.OperationException: {"error":{"root_cause":[{"type":"illegal_argument_exception","reason":"request [/twitter] contains unrecognized parameter: [refresh]"}],"type":"illegal_argument_exception","reason":"request [/twitter] contains unrecognized parameter: [refresh]"},"status":400} ---> System.Net.WebException: Удаленный сервер возвратил ошибку: (400) Недопустимый запрос.
+   в System.Net.HttpWebRequest.GetResponse()
+   в PlainElastic.Net.ElasticConnection.ExecuteRequest(String method, String command, String jsonData) в C:\Development\git\d.zakh\elasticSearchClient_Net\src\PlainElastic.Net\Connection\ElasticConnection.cs:строка 131
+   --- Конец трассировки внутреннего стека исключений ---
+   в PlainElastic.Net.ElasticConnection.ExecuteRequest(String method, String command, String jsonData) в C:\Development\git\d.zakh\elasticSearchClient_Net\src\PlainElastic.Net\Connection\ElasticConnection.cs:строка 141
+   в PlainElastic.Net.ElasticConnection.Put(String command, String jsonData) в C:\Development\git\d.zakh\elasticSearchClient_Net\src\PlainElastic.Net\Connection\ElasticConnection.cs:строка 72
+   в PlainSample.ElasticClient`1.CreateIndex(IndexCommand indexCommand, IndexSettingsBuilder indexSettings) в C:\Development\git\d.zakh\elasticSearchClient_Net\src\Samples\PlainSample\ElasticClient.cs:строка 63
+   в PlainSample.ClientSample.<>c__DisplayClass0_0.<Execute>b__1() в C:\Development\git\d.zakh\elasticSearchClient_Net\src\Samples\PlainSample\ClientSample.cs:строка 40
+   в PlainSample.Extensions.R(Action action) в C:\Development\git\d.zakh\elasticSearchClient_Net\src\Samples\PlainSample\Extensions.cs:строка 15
+Index Results:
+ _index: twitter
+ _type: tweet
+ _id: 1
+ _version: 1
+
+Index Results:
+ _index: twitter
+ _type: tweet
+ _id: 2
+ _version: 1
+
+Get Result: 
+ _id: 2
+ _index: twitter
+ _type: tweet
+ _version: 1
+ _source: PlainSample.Tweet
+ Tweet: 
+     User: anotherUser
+     Message: one more message
+
+Search Results:
+ took: 1
+ timed_out: False
+ _shards:
+     total: 5
+     successful: 5
+     failed: 0
+ hits: 
+     total: 0
+     max_score: 
+     hits: 
+
+Delete Results:
+ acknowledged: True
+ _index: 
+ _type: 
+ _id: 
+ found: False
+
+Press any key
+s

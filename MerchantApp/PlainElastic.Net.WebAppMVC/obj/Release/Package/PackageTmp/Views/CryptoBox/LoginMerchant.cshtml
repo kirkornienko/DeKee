@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "LoginMerchant";
+    Layout = "~/Views/Shared/_BodyLessLayout.cshtml";
+}
+
+
+<form class="form-signin" action="LoginMerchant" method="POST">
+    <h1 class="h3 mb-3 font-weight-normal text-center">Sign in to your B4U Merchant Account</h1>
+    <label for="Init.UserName" class="sr-only">Login</label>
+    <input type="email" name="LogInData.UserName" id="logInData.UserName" class="form-control" placeholder="Email address" required="" autofocus="">
+    <label for="Init.Password" class="sr-only">Password</label>
+    <input type="password" name="LogInData.Password" id="logInData.Password" class="form-control" placeholder="Password" required="">
+    
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+</form>

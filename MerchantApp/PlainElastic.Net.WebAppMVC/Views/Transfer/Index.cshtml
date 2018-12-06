@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_PostLoginLayout.cshtml";
+}
+
+<h2 class="d-flex justify-content-between align-items-center mb-3">
+    <span class="text-muted">Transfers</span>
+</h2>
+<hr />
+<div class="row">
+    <div class="col-md-6 phoneNumber">
+        <div class="input-group-lg">
+            <input type="tel" value="60172860300" placeholder="+30117775533" class="input-lg form-control phoneNumber" />
+            <button class="btn btn-primary input-lg form-control check" name="btnCheck" onclick="Check()">Let's see...</button>
+        </div>
+
+    </div>
+    <div class="col-md-6 customers result">
+        <div class="row data"></div>
+
+
+    </div>
+    <hr />
+
+    <div class="col-md-12 amounts">
+        <div class="row data"></div>
+
+    </div>
+</div>
+@section scripts
+{
+<script type="text/javascript">
+    function InitView() {
+        $("button.check").click(
+            function (e) {
+                $("div.amounts > div.data").html("");
+                $("div.result").html("");
+                //alert($("input.phoneNumber").val());
+                var req = { input: $("input.phoneNumber").val()}
+                $.post("/Transfer/CheckTransferService", req).then(
+                    function (resp) {
+                        if (resp.data)
+                            alert(resp.data.country);
+                        else {
+                            $("div.amounts > div.data").html(resp);
+                            $("button.topup").click(function (e) {
+                                var prepareDto =
+                                    {
+                                        Product : $(this.parentElement).children("input.product").val(),
+                                        OperatorId : $(this.parentElement).children("input.operatorid").val(),
+                                        SenderNumber : $(this.parentElement).children("input.msisdn").val(),
+                                        DestinationNumber: $(this.parentElement).children("input.destination_msisdn").val()
+                                    };
+                                //alert(prepareDto.product);
+                                $.post("/Transfer/Prepare", prepareDto).then(function (prepareResp) {
+                                    $("div.result").html(prepareResp);
+                                    //alert(prepareResp);
+                                });
+                            });
+                        }
+                            
+
+                    }
+                );
+            }
+        );
+
+        $.post("/Customer/SearcCustomers").then(function (data) {
+            $(".items").html(data)
+        })
+    }
+
+    InitView();
+</script>    
+}

@@ -1,0 +1,30 @@
+﻿@model string
+
+@{
+    ViewBag.Title = "Crypto wallet";
+    Layout = "~/Views/Shared/_PostLoginLayout.cshtml";
+}
+
+
+<h2 class="d-flex justify-content-between align-items-center mb-3">
+    <span class="text-muted">Wallet Info </span>
+</h2>
+
+@*<h3>Your merchants crypto wallet address is: @Model</h3>*@
+
+<div class="row data" >
+
+</div>
+
+@section scripts
+{
+    <script type="text/javascript">
+        (function () {
+            $(document).ready(function () {
+                $.get("/CryptoBox/WalletInfo").then(function (resp) {
+                    $("div.data").html(resp)
+                })
+            })
+        })();
+    </script>
+}

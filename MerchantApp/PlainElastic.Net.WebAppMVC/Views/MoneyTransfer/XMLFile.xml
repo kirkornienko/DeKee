@@ -1,0 +1,33 @@
+﻿Create CardHolder 1
+Change Card Status 4
+Change Card PIN  5
+
+Deposit to Card Number 7
+Message Response Lookup 8
+View Statement Summary 9
+View Statement Details by Card Number 10
+Assign Card to Cardholder  11
+Validate PIN 12
+Set Card PIN 22
+Get Card Status 23
+Get Card Account Balance 24
+Cardholder Fees 30
+Adjustment 31
+Card Linking  32
+Card Inquiry 33
+Cash Out 34
+Card to Card Transfer 35
+Update Cardholder 36
+PIN Reset 37
+PIN Request PINReq
+View Statement Details by Account Number 39
+Unlock Bad PIN Tries 40
+OFAC Check 56
+Request Direct Deposit Number 57
+Get Real-Time Currency Exchange Rates multic
+Instant Card Issue
+Validate Cardholder Verification Data cvv2
+Get Dynamic CVV (CVV3) cvv3
+Validate Micro Deposit MicroDeposit
+Change Password – ChangePswd
+Message Heart Beat – Function 025
